@@ -1,5 +1,8 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+# Adapted from:
+# https://github.com/github/gitignore/blob/master/KiCad.gitignore
+
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # Temporary files
 *.000
@@ -26,6 +29,14 @@ fp-info-cache
 *.dsn
 *.ses
 
+# Footprint association file (exported from Pcbnew)
+*.cmp
+
 # Exported BOM files
 *.xml
 *.csv
+*.tsv
+
+# Misc
+*.log
+*.raw
