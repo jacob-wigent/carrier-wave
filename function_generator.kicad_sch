@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dc900721-a2e3-4f11-b4f2-59bb3a47422e")
+	(paper "A")
+	(title_block
+		(title "Portable Function Generator")
+		(date "2026-02-10")
+		(rev "1.0")
+		(company "Jacob Wigent")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
