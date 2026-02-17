@@ -657,6 +657,10 @@
     [
       "dc900721-a2e3-4f11-b4f2-59bb3a47422e",
       "Root"
+    ],
+    [
+      "3906e33f-01c0-4b3b-b4a0-f1028fb4a0a8",
+      "Dual Rail Boost Converter"
     ]
   ],
   "text_variables": {}
