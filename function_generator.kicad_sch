@@ -3455,7 +3455,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 30.48) (xy 30.48 30.48)
+			(xy 26.67 27.94) (xy 30.48 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3685,7 +3685,7 @@
 	)
 	(global_label "VBus"
 		(shape input)
-		(at 26.67 30.48 180)
+		(at 26.67 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3695,7 +3695,7 @@
 		)
 		(uuid "d56c50d8-dbc2-4361-8751-9456267f7852")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.1491 30.48 0)
+			(at 19.1491 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,7 +5134,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 30.48 30.48 180)
+			(at 30.48 27.94 180)
 			(uuid "f962f1f3-c532-4511-ad4f-1266113ca5c0")
 			(effects
 				(font
@@ -5161,6 +5161,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 30.48 33.02 180)
+			(uuid "2bb217c5-7695-4e31-8180-a1b5f436a662")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
