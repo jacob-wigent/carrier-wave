@@ -30,6 +30,10 @@ A portable, USB-C powered function generator currently under development. This p
 - [ ] Firmware development  
 - [ ] Analog characterization  
 
+## To-Do
+
+- [ ] Refine TPS65131 schematic annotations
+
 ---
 
 ## Design Intent
