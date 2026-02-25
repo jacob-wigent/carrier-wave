@@ -7,7 +7,7 @@
 	(title_block
 		(title "Dual Rail Boost Converter")
 		(date "2026-02-17")
-		(rev "1.0")
+		(rev "A")
 		(company "Jacob Wigent")
 	)
 	(lib_symbols
