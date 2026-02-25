@@ -1,4 +1,4 @@
-# Portable USB-C Function Generator
+# Carrier-Wave
 
 A portable, USB-C powered function generator currently under development. This project aims to combine DDS-based waveform generation with ultra-low-noise analog design in a compact form factor.
 
