@@ -1,0 +1,904 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0cf49687-1c57-4fc2-9aa3-b5e2a2ded43d")
+	(paper "A")
+	(title_block
+		(title "Dual Rail Linear Regulators")
+		(date "2026-02-25")
+		(rev "A")
+		(company "Jacob Wigent")
+	)
+	(lib_symbols
+		(symbol "Regulator_Linear:LT3045xMSE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LT3045xMSE"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:MSOP-12-1EP_3x4.039mm_P0.65mm_EP1.651x2.845mm"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear voltage regulator low-noise"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MSOP*1EP*3x4.039mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LT3045xMSE_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LT3045xMSE_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN/UV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "SET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "PGFB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:LT3094xMSE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LT3094xMSE"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:MSOP-12-1EP_3x4.039mm_P0.65mm_EP1.651x2.845mm"
+				(at 0 10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Negative Linear Regulator, MSOP-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear negative voltage regulator low-noise"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MSOP*1EP*3x4.039mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LT3094xMSE_0_0"
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LT3094xMSE_0_1"
+				(rectangle
+					(start 7.62 7.62)
+					(end -7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LT3094xMSE_1_1"
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "EN/UV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "VIOC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "SET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "PGFB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(hierarchical_label "VPOS"
+		(shape input)
+		(at 106.68 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b809775-00fe-4335-a90b-569d50239eb4")
+	)
+	(hierarchical_label "VNEG"
+		(shape input)
+		(at 198.12 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84ca76ac-ec09-477e-8f48-e95467275323")
+	)
+	(hierarchical_label "INP"
+		(shape input)
+		(at 68.58 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1fe7c8b-4efa-4378-9bf2-7063bac68aa2")
+	)
+	(hierarchical_label "INN"
+		(shape input)
+		(at 165.1 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0b7e0d5-8dd8-419f-8407-06cda9dfd7cd")
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LT3045xMSE")
+		(at 88.9 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33bfaf36-5948-4add-9969-a89c029da49c")
+		(property "Reference" "U?"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045xMSE"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-12-1EP_3x4.039mm_P0.65mm_EP1.651x2.845mm"
+			(at 88.9 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf"
+			(at 88.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12"
+			(at 88.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2822241a-3a81-42a2-9a56-7aa2876bf645")
+		)
+		(pin "9"
+			(uuid "7f281fe4-4ef7-4a7a-85db-ab242034ecea")
+		)
+		(pin "5"
+			(uuid "370fba3e-be83-45ba-aa0c-54a9274a76cf")
+		)
+		(pin "13"
+			(uuid "777180f6-627b-44ee-bc73-3af7df2bb662")
+		)
+		(pin "4"
+			(uuid "d42f195c-1180-412d-869d-d6015dff07e8")
+		)
+		(pin "6"
+			(uuid "c0072dfd-cf1d-49b0-92b7-7ac9d2ec3456")
+		)
+		(pin "11"
+			(uuid "a504117a-b1c3-4c36-be69-8bab941a6d28")
+		)
+		(pin "1"
+			(uuid "27594cde-65dc-4357-b68d-2d05c29c7e92")
+		)
+		(pin "8"
+			(uuid "3961ad12-2d66-4962-8654-7a2d166409c0")
+		)
+		(pin "2"
+			(uuid "b9388f33-9a32-4a75-8b52-0360ab2527b0")
+		)
+		(pin "10"
+			(uuid "022a752f-5db2-452f-93a4-1942c34e7a6f")
+		)
+		(pin "12"
+			(uuid "7f919c32-d286-4926-bfbf-2f0cb4c08ba7")
+		)
+		(pin "7"
+			(uuid "6bdb8b42-7bf1-4ec9-8279-59207ef68152")
+		)
+		(instances
+			(project "carrier-wave"
+				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e/862ad05a-ea26-47ef-9cbb-4167003565e9"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LT3094xMSE")
+		(at 181.61 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a7a7072-9fda-4d60-96cf-bafef433271d")
+		(property "Reference" "U?"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3094xMSE"
+			(at 181.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-12-1EP_3x4.039mm_P0.65mm_EP1.651x2.845mm"
+			(at 181.61 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf"
+			(at 181.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Negative Linear Regulator, MSOP-12"
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "1271a6fc-0c01-4f48-9804-4f30a62415c0")
+		)
+		(pin "4"
+			(uuid "914bbdb0-a3fc-4ba7-b9cb-7bdc8e74f204")
+		)
+		(pin "1"
+			(uuid "d4d37b45-328f-4134-8dda-11fd2ad83e66")
+		)
+		(pin "12"
+			(uuid "47e20014-569a-447b-9b47-81d31d921994")
+		)
+		(pin "2"
+			(uuid "1e40529b-c673-4e70-b530-7cdf9fbf9437")
+		)
+		(pin "9"
+			(uuid "9f82aadc-be19-4eb2-b00a-d09722137307")
+		)
+		(pin "8"
+			(uuid "0635599a-685b-4aa3-a879-760b4b9cab8b")
+		)
+		(pin "13"
+			(uuid "75c660a3-041b-4c2f-b937-c21faf4e4ba8")
+		)
+		(pin "3"
+			(uuid "b2d6684c-7761-44a8-ab5d-a7d02e466bd9")
+		)
+		(pin "6"
+			(uuid "e2a163a0-c8a7-4dda-bb27-954d658fd811")
+		)
+		(pin "11"
+			(uuid "dcad11af-f047-433e-ae43-e89ce60e957e")
+		)
+		(pin "10"
+			(uuid "8a12cf71-0811-422a-986c-03448e8d3d19")
+		)
+		(pin "7"
+			(uuid "b4c6a69f-a117-42b6-94f7-3484b36eb965")
+		)
+		(instances
+			(project "carrier-wave"
+				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e/862ad05a-ea26-47ef-9cbb-4167003565e9"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

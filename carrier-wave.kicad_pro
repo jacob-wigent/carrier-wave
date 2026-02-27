@@ -661,6 +661,10 @@
     [
       "3906e33f-01c0-4b3b-b4a0-f1028fb4a0a8",
       "Dual Rail Boost Converter"
+    ],
+    [
+      "862ad05a-ea26-47ef-9cbb-4167003565e9",
+      "Rail Regulators"
     ]
   ],
   "text_variables": {}

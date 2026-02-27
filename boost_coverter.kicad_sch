@@ -2120,7 +2120,7 @@
 		)
 		(uuid "eb1ea052-5d49-4459-b7ee-f39e9c28fa4c")
 	)
-	(text "Because the TPS65131 is designed to use\ninductors between 3.3 uH and 6.8 uH,\nthe recommended 4.7 uH inductor was selected.\n\nBased on the provided calculations, the\npositive inductor ripple current will be 0.52\nof I_{LP}. While this is higher than the\nrecommended 20%, this is expected due to the\nlow output current of 100 mA."
+	(text "Because the TPS65131 is designed to use\ninductors between 3.3 uH and 6.8 uH,\nthe recommended 4.7 uH inductor was selected.\n\nBased on the provided calculations, the\npositive inductor ripple current will be 52%\nof I_{LP}. While this is higher than the\nrecommended 20%, this is expected due to the\nlow output current of 100 mA."
 		(exclude_from_sim no)
 		(at 94.742 37.338 0)
 		(effects
