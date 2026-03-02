@@ -1867,7 +1867,7 @@
 		)
 		(uuid "16521721-741a-48ac-9c15-5b3edd3a2b77")
 	)
-	(text "R1 = R2 * (V_{pos}/V_{ref} - 1)\nR1 = 100k * (12.77/1.213 - 1) = 953k\n\nI_{div} = 1.213V/100k = 12uA\n12uA / 0.05uA = 240x > 100x"
+	(text "R1 = R2 * (V_{pos}/V_{ref} - 1)\nR1 = 100k * (6.0/1.213 - 1) = 592k ≈ 590k (E96)\n\nI_{div} = 1.213V/150k = 8uA\n8uA / 0.05uA = 160x > 100x"
 		(exclude_from_sim no)
 		(at 178.054 79.248 0)
 		(effects
@@ -1941,7 +1941,7 @@
 		)
 		(uuid "534f1321-7572-493e-b3e7-21a5c0b0dc12")
 	)
-	(text "R3 = -R4 * (V_{neg}/V_{ref})\nR3 = -100k * (-12.77/1.213)\n= 1.05M"
+	(text "R3 = -R4 * (V_{neg}/V_{ref})\nR3 = -150k * (-6.0/1.213)\n= 742k ≈ 741k(E192) OR 750k(E96)"
 		(exclude_from_sim no)
 		(at 126.238 63.246 0)
 		(effects
@@ -4552,7 +4552,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "150k"
 			(at 171.704 72.898 0)
 			(effects
 				(font
@@ -4753,7 +4753,7 @@
 				)
 			)
 		)
-		(property "Value" "953k"
+		(property "Value" "590k"
 			(at 171.45 62.23 0)
 			(effects
 				(font
@@ -5288,7 +5288,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "150"
 			(at 131.064 73.406 0)
 			(effects
 				(font
