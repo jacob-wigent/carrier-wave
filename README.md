@@ -6,9 +6,9 @@ A portable, USB-C powered function generator currently under development. This p
 
 ## Planned Architecture
 
-**MCU:** SAMD21 (ATSAMD21E18A-M)
+**MCU:** STM32G0
 
-**DDS:** AD9833  
+**DDS:** AD9102  
 
 **Power System:**
 - TPS65131 dual-rail boost converter  
@@ -32,7 +32,7 @@ A portable, USB-C powered function generator currently under development. This p
 
 ## To-Do
 
-- [ ] Refine TPS65131 schematic annotations
+- [x] Refine TPS65131 schematic annotations
 
 ---
 
