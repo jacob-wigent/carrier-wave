@@ -12,7 +12,7 @@ The Carrier-Wave hardware combines DDS-based digital waveform generation with a 
 - Controls DDS over SPI
 - Handles user interface and system logic
 
-**DDS:** AD9834 *(potential overclocking to ~100 MHz MCLK)[†](#footnotes)
+**DDS:** AD9834 *(potential overclocking to ~100 MHz MCLK)*[†](#footnotes)
 - Generates base waveform (sine, triangle, square)  
 - Output filtered and amplified by analog stage
 
@@ -29,7 +29,7 @@ The Carrier-Wave hardware combines DDS-based digital waveform generation with a 
 
 - **Transimpedance Pre-Amplifier**  
   - Converts DDS current output to voltage  
-  - Sets initial signal amplitude before filtering
+  - Sets baseline signal amplitude before filtering
 
 - **Reconstruction Filter (High-Order Butterworth)**  
   - Removes DDS images and high-frequency components  
