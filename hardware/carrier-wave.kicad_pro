@@ -130,23 +130,23 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
-        "min_connection": 0.1,
-        "min_copper_edge_clearance": 0.2,
+        "min_clearance": 0.15,
+        "min_connection": 0.15,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.28,
-        "min_hole_to_hole": 0.45,
-        "min_microvia_diameter": 0.0,
-        "min_microvia_drill": 0.0,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.0,
-        "min_text_thickness": 0.0,
-        "min_through_hole_diameter": 0.508,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.2,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6,
+        "solder_mask_to_copper_clearance": 0.1,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -195,7 +195,6 @@
       ],
       "track_widths": [
         0.0,
-        0.1,
         0.15,
         0.2,
         0.25,
@@ -239,23 +238,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.3
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.3
-        },
-        {
-          "diameter": 2.0,
-          "drill": 0.3
-        },
-        {
-          "diameter": 3.0,
+          "diameter": 0.6,
           "drill": 0.3
         }
       ],
@@ -689,7 +672,7 @@
         "uuid": "dc900721-a2e3-4f11-b4f2-59bb3a47422e"
       }
     ],
-    "used_designators": "U1-8,C1-7,FB1,R1-2,SW1",
+    "used_designators": "#PWR3,#PWR6",
     "variants": []
   },
   "sheets": [
@@ -700,10 +683,6 @@
     [
       "3906e33f-01c0-4b3b-b4a0-f1028fb4a0a8",
       "Dual Rail Boost Converter"
-    ],
-    [
-      "862ad05a-ea26-47ef-9cbb-4167003565e9",
-      "Rail Regulators"
     ]
   ],
   "text_variables": {},

@@ -1966,7 +1966,7 @@
 	)
 	(text "Pulled LOW via a 47 k resistor\nto set the default state to OFF.\n\nAn optional pull-up resistor\n(R6) allows manual control."
 		(exclude_from_sim no)
-		(at 87.63 103.124 0)
+		(at 87.63 102.87 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1979,7 +1979,7 @@
 	)
 	(text "R1 = R2 * (V_{pos}/V_{ref} - 1)\nR1 = 100k * (6.0/1.213 - 1) = 592k ≈ 590k (E96)\n\nI_{div} = 1.213V/150k = 8uA\n8uA / 0.05uA = 160x > 100x"
 		(exclude_from_sim no)
-		(at 178.054 79.248 0)
+		(at 177.8 78.74 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1992,7 +1992,7 @@
 	)
 	(text "An output capacitance of 22uF matches reference schematics, which\nresults in a voltage ripple of 2.5mV.\n\nESR of 1.5R * Output Current of 100mA = additional 1.5mV Ripple"
 		(exclude_from_sim no)
-		(at 173.99 108.204 0)
+		(at 173.99 107.95 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2004,7 +2004,7 @@
 	)
 	(text "An input bulk capacitor of at least 4.7 uF is\nrecommended to improve transient response.\nA value of 22 uF was selected for both the INP\nand INN capacitors to improve performance when\npowered from a potentially unstable USB source.\n\nA 0.1 uF ceramic bypass capacitor should be\nplaced close to the VIN pin."
 		(exclude_from_sim no)
-		(at 67.31 85.852 0)
+		(at 67.31 86.36 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2016,7 +2016,7 @@
 	)
 	(text "The positive output capacitor value (C4) can be calculated as follows,\nwhere ΔV_{POS} is the maximum allowed output ripple and f is the \nswitching frequency."
 		(exclude_from_sim no)
-		(at 206.375 55.626 0)
+		(at 207.01 55.88 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2028,7 +2028,7 @@
 	)
 	(text "12.77V"
 		(exclude_from_sim no)
-		(at 202.946 50.038 0)
+		(at 203.2 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2041,7 +2041,7 @@
 	)
 	(text "I_{div} = 1.213V/100k = 12uA\n12uA / 0.05uA = 240x"
 		(exclude_from_sim no)
-		(at 145.288 62.738 0)
+		(at 144.78 62.23 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2053,7 +2053,7 @@
 	)
 	(text "R3 = -R4 * (V_{neg}/V_{ref})\nR3 = -150k * (-6.0/1.213)\n= 742k ≈ 741k(E192) OR 750k(E96)"
 		(exclude_from_sim no)
-		(at 126.238 63.246 0)
+		(at 125.73 63.5 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2067,7 +2067,7 @@
 	)
 	(text "ENP and ENN tied together\nand exposed via EN pin to\nallow MCU control over PSU."
 		(exclude_from_sim no)
-		(at 87.63 97.536 0)
+		(at 87.63 97.79 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2079,7 +2079,7 @@
 	)
 	(text "An output capacitance of 22uF matches reference schematics, which\nresults in a voltage ripple of 2.3mV.\n\nESR of 1.5R * Output Current of 100mA = additional 1.5mV Ripple"
 		(exclude_from_sim no)
-		(at 206.375 64.77 0)
+		(at 207.01 64.77 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2091,7 +2091,7 @@
 	)
 	(text "Feedforward Capacitor"
 		(exclude_from_sim no)
-		(at 177.927 53.848 0)
+		(at 177.8 53.34 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2103,7 +2103,7 @@
 	)
 	(text "C10 = 7.5us/R3\nC10 = 7.5us/1.05M\n= 7.2pF"
 		(exclude_from_sim no)
-		(at 146.685 82.55 0)
+		(at 147.32 82.55 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2129,7 +2129,7 @@
 	)
 	(text "Power-Save (Burst Mode) disabled\nto reduce output ripple magnitude\nand because efficiency is identical\nat ~100mA output current."
 		(exclude_from_sim no)
-		(at 99.568 110.49 0)
+		(at 99.06 110.49 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2141,7 +2141,7 @@
 	)
 	(text "The negative output capacitor value (C5) can be calculated as follows,\nwhere ΔV_{NEG} is the maximum allowed output ripple and f is the \nswitching frequency."
 		(exclude_from_sim no)
-		(at 173.736 98.298 0)
+		(at 173.99 97.79 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2153,7 +2153,7 @@
 	)
 	(text "Feedforward Capacitor"
 		(exclude_from_sim no)
-		(at 146.812 79.502 0)
+		(at 147.32 80.01 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2167,7 +2167,7 @@
 	)
 	(text "TPS65131RGE Pin Definitions"
 		(exclude_from_sim no)
-		(at 12.446 140.716 0)
+		(at 12.7 140.97 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2181,7 +2181,7 @@
 	)
 	(text "PSP ON = PSP OFF = ~83% @ 100mA\nPSN ON = PSN OFF = ~82% @ 100mA"
 		(exclude_from_sim no)
-		(at 99.568 115.316 0)
+		(at 99.06 115.57 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2194,7 +2194,7 @@
 	)
 	(text "C9 = 6.8us/R1\nC10 = 6.8us/953k\n= 7.1pF"
 		(exclude_from_sim no)
-		(at 178.435 57.15 0)
+		(at 179.07 57.15 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2207,7 +2207,7 @@
 	)
 	(text "To achieve appropriate accuracy, the current through the feedback divider\nshould be about 100 times greater than the current into the FBP pin.\nTypical current into the FBP pin is 0.05 µA, and the voltage across R2 \nis 1.213 V. Based on those values, the recommended value for R2 should\nbe lower than 200 kΩ to set the divider current at 5 µA to 10 µA."
 		(exclude_from_sim no)
-		(at 178.054 72.39 0)
+		(at 177.8 72.39 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2219,7 +2219,7 @@
 	)
 	(text "-12.77V"
 		(exclude_from_sim no)
-		(at 172.974 87.63 0)
+		(at 172.72 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2232,7 +2232,7 @@
 	)
 	(text "Because the TPS65131 is designed to use\ninductors between 3.3 uH and 6.8 uH,\nthe recommended 4.7 uH inductor was selected.\n\nBased on the provided calculations, the\npositive inductor ripple current will be 52%\nof I_{LP}. While this is higher than the\nrecommended 20%, this is expected due to the\nlow output current of 100 mA."
 		(exclude_from_sim no)
-		(at 94.742 37.338 0)
+		(at 95.25 36.83 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2244,7 +2244,7 @@
 	)
 	(text "Feedback divider current considerations are similar to the\nconsiderations at the boost converter. For the same reasons,\nthe feedback divider current should be in the range of 5 µA\nor greater. The voltage across R4 is 1.213 V. Based on those\nvalues, the recommended value for R4 should be lower than\n200 kΩ to set the divider current at the required value."
 		(exclude_from_sim no)
-		(at 126.238 57.15 0)
+		(at 125.73 57.15 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2257,7 +2257,7 @@
 	)
 	(text "C4_{min} = I_{POS}*(V_{POS} - V_{I}) / f * ΔV_{POS} * V_{POS}\nC4_{min} = 100mA *(12.77V - 5V) / 1.25MHz * 2.5mV * 12.77V\nC4_{min} = 19uF"
 		(exclude_from_sim no)
-		(at 206.375 59.69 0)
+		(at 207.01 59.69 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2412,7 +2412,7 @@
 	)
 	(polyline
 		(pts
-			(xy 65.405 61.595) (xy 89.535 61.595)
+			(xy 66.04 62.23) (xy 90.17 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3062,7 +3062,7 @@
 	)
 	(polyline
 		(pts
-			(xy 65.405 79.375) (xy 65.405 61.595)
+			(xy 66.04 80.01) (xy 66.04 62.23)
 		)
 		(stroke
 			(width 0)
