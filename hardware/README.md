@@ -18,30 +18,51 @@ The Carrier-Wave hardware combines DDS-based digital waveform generation with a 
 
 ## Power System
 
-- **Dual-rail boost converter (TPS65131)**  
-  - Generates positive and negative rails for analog stage  
+- **Dual-rail Boost Converter (TPS65131)**  
+  - Generates positive and negative rails for analog output stage 
 
-- **Ultra-low-noise LDOs (LT3045 & LT3094)**  
-  - Post-regulation for clean analog supply rails  
-  - Minimizes ripple and switching noise from boost stage
+- **±12V LDOs (LM2940 & LM2990)**  
+  - Post-regulation for analog output rails  
+  - Reduces ripple and switching noise from boost stage
+
+- **±5V Converter/Regulator (LM27762)**
+  - Supplies lower-voltage rails for pre-amplification stages
+  - Integrated charge pump and LDO for compact design
 
 ## Analog Stage
 
-- **Transimpedance Pre-Amplifier**  
-  - Converts DDS current output to voltage  
+- **Differential Termination & Pre-Amplification**
+  - Terminates complementary DDS current outputs
+  - Converts differential current to single-ended voltage
+  - Cancels even-order harmonics and common-mode noise
   - Sets baseline signal amplitude before filtering
 
-- **Reconstruction Filter (High-Order Butterworth)**  
-  - Removes DDS images and high-frequency components  
-  - Designed for flat passband and minimal ripple 
+- **Reconstruction Filter (High-Order Butterworth)**
+  - Removes DDS images and high-frequency components
+  - Designed for flat passband and minimal ripple
+
+- **Variable Gain Amplifier (VGA)**
+  - Provides digitally controlled gain over the full amplitude range
+  - Analog gain control via dedicated DAC channel
+
+- **DC Offset Stage**
+  - Adds programmable DC offset after the VGA
+  - Independent of amplitude control
 
 - **Output Amplifier**
-  - Scales signal to target voltage range (up to ±10 V)  
-  - Drives both high-impedance and 50Ω loads 
+  - Fixed gain, high-current drive stage
+  - Scales signal to target voltage range (up to ±10 V)
+  - Drives both high-impedance and 50Ω loads
+
+- **Square Wave Path (Parallel)**
+  - Taps SIGN BIT OUT from the DDS, a logic-level square wave phase-locked to the NCO
+  - Scaled and AC-coupled to match the analog path baseline amplitude
+  - Bypasses the reconstruction filter to preserve edge integrity
+  - Selected via analog mux; rejoins the signal chain before the VGA
 
 ## User Interface
 
-- 128×64 OLED display (SSD1309)  
+- OLED or TFT display
 - Rotary encoder for input  
 - USB-C connector 
 - BNC connector
