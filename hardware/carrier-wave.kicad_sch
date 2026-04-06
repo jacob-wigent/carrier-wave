@@ -4755,45 +4755,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TPS7A39"
+		(symbol "Regulator_Linear:LM2990SX-12"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 13.97 0)
+				(at -7.874 4.064 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "TPS7A39"
-				(at 0 11.43 0)
+			(property "Value" "LM2990SX-12"
+				(at -3.048 4.064 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SON:Texas_S-PVSON-N10_ThermalVias"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a39.pdf"
-				(at 0 -25.4 0)
+			(property "Footprint" ""
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4803,7 +4797,18 @@
 					)
 				)
 			)
-			(property "Description" "Dual, 150-mA, ±3.3V to ±33V Input, +1.2V to +30V and -30V to 0V Output, Wide VIN Positive and Negative LDO Voltage Regulator, 3x3mm WSON-10 package"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2990.pdf"
+				(at -31.75 19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Three termianl low-dropout 1A negative voltage regulator, Input -6V to -26V, Out -12V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4814,7 +4819,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Dual LDO Regulator Adj Positive Negative"
+			(property "ki_keywords" "Negative voltage regulator"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4825,7 +4830,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Texas*PVSON*"
+			(property "ki_fp_filters" "TO?263*TabPin2* TO?220*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4836,10 +4841,10 @@
 					)
 				)
 			)
-			(symbol "TPS7A39_1_1"
+			(symbol "LM2990SX-12_0_1"
 				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
+					(start -7.62 2.54)
+					(end 7.62 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4848,10 +4853,12 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "LM2990SX-12_1_1"
 				(pin power_in line
-					(at -10.16 7.62 0)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "INP"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4866,10 +4873,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 2.54 0)
+				(pin power_in line
+					(at -10.16 0 0)
 					(length 2.54)
-					(name "EN"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4884,10 +4891,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 -2.54 0)
+				(pin power_out line
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "NR/SS"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4895,151 +4902,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "INN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "OUTN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "FBN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "BUF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "FBP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "OUTP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7702,7 +7564,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:TS5A3159ADCK")
-		(at 46.99 110.49 270)
+		(at 91.44 121.92 90)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7712,7 +7574,7 @@
 		(dnp no)
 		(uuid "33f1f10b-00d6-4d59-a863-3344d36d6274")
 		(property "Reference" "U7"
-			(at 44.958 107.696 90)
+			(at 93.472 124.714 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7723,7 +7585,7 @@
 			)
 		)
 		(property "Value" "TS5A3159ADCK"
-			(at 45.72 113.03 0)
+			(at 92.71 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7735,7 +7597,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 33.02 111.125 0)
+			(at 105.41 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7747,7 +7609,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf"
-			(at 35.56 111.125 0)
+			(at 102.87 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7759,7 +7621,7 @@
 			)
 		)
 		(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SC-70-6"
-			(at 46.99 110.49 0)
+			(at 91.44 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8413,6 +8275,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LM2990SX-12")
+		(at 72.39 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5669853d-cfce-4274-8d4c-c4361629046f")
+		(property "Reference" "U8"
+			(at 72.39 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2990SX-12"
+			(at 72.39 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
+			(at 72.39 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2990.pdf"
+			(at 40.64 11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Three termianl low-dropout 1A negative voltage regulator, Input -6V to -26V, Out -12V"
+			(at 72.39 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70228945-0508-4602-9fe4-ade9cc779dc4")
+		)
+		(pin "1"
+			(uuid "e497a00d-35a7-4df2-b0ef-4bf48bc9845c")
+		)
+		(pin "3"
+			(uuid "3c905dd8-d7e7-4cbf-ab05-f863326b5d5b")
+		)
+		(instances
+			(project "carrier-wave"
+				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
 		(at 26.67 172.72 0)
 		(unit 1)
@@ -8775,7 +8720,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_SwitchedCapacitor:LM27762")
-		(at 113.03 132.08 0)
+		(at 38.1 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8786,7 +8731,7 @@
 		(fields_autoplaced yes)
 		(uuid "7940c272-66e0-4fdd-a2ca-557d137e09ea")
 		(property "Reference" "U5"
-			(at 114.3 119.38 0)
+			(at 39.37 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8796,7 +8741,7 @@
 			)
 		)
 		(property "Value" "LM27762"
-			(at 114.3 121.92 0)
+			(at 39.37 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8806,7 +8751,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias"
-			(at 116.84 151.13 0)
+			(at 41.91 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8818,7 +8763,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm27762.pdf"
-			(at 176.53 142.24 0)
+			(at 101.6 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8829,7 +8774,7 @@
 			)
 		)
 		(property "Description" "Low-noise inverting charge pump with both positive and negative LDO's, with 2.7V-5.5V input to +1.5 to +5V and -1.5 to -5V Output Voltage, WSON-12"
-			(at 113.03 132.08 0)
+			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8889,7 +8834,7 @@
 	)
 	(symbol
 		(lib_id "carrier-wave:OPA695")
-		(at 86.36 83.82 0)
+		(at 72.39 99.06 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8900,7 +8845,7 @@
 		(dnp no)
 		(uuid "7cf7897d-db38-4125-889f-0176b7ac176e")
 		(property "Reference" "U2"
-			(at 91.186 90.424 0)
+			(at 77.216 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8910,7 +8855,7 @@
 			)
 		)
 		(property "Value" "OPA695"
-			(at 91.186 87.884 0)
+			(at 77.216 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8920,7 +8865,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 88.9 77.47 0)
+			(at 74.93 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8932,7 +8877,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa695.pdf"
-			(at 90.17 87.63 0)
+			(at 76.2 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8943,7 +8888,7 @@
 			)
 		)
 		(property "Description" "Ultra-Wideband, Current-Feedback Operational Amplifier With Disable"
-			(at 86.36 83.82 0)
+			(at 72.39 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9445,113 +9390,6 @@
 			(project "carrier-wave"
 				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e"
 					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TPS7A39")
-		(at 140.97 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac084b90-ded9-4e03-b2c3-e002014f3fcd")
-		(property "Reference" "U6"
-			(at 140.97 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS7A39"
-			(at 140.97 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:Texas_S-PVSON-N10_ThermalVias"
-			(at 140.97 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a39.pdf"
-			(at 140.97 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual, 150-mA, ±3.3V to ±33V Input, +1.2V to +30V and -30V to 0V Output, Wide VIN Positive and Negative LDO Voltage Regulator, 3x3mm WSON-10 package"
-			(at 140.97 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "67ac189d-236c-4f67-bcb9-2e077df10f86")
-		)
-		(pin "4"
-			(uuid "07401ae9-8787-4462-8fb8-1f75622e7d54")
-		)
-		(pin "8"
-			(uuid "564268e1-3e66-4619-b077-d136fc8da52c")
-		)
-		(pin "5"
-			(uuid "a4dac539-04ca-49fc-9225-faa115f7c674")
-		)
-		(pin "3"
-			(uuid "622ec84c-4455-44fa-bd51-f8611587010f")
-		)
-		(pin "11"
-			(uuid "a4cf5def-c359-4363-9237-7b93929a1118")
-		)
-		(pin "1"
-			(uuid "ce7f21ba-756f-497f-b4e9-557dd6ac26ca")
-		)
-		(pin "7"
-			(uuid "3f1e9c61-f875-4a3b-b820-722208cda6e3")
-		)
-		(pin "2"
-			(uuid "adbf7531-e74b-40f7-a5e0-10be4916eddc")
-		)
-		(pin "6"
-			(uuid "f34b970f-6fce-4116-b35b-7a781e109c19")
-		)
-		(pin "9"
-			(uuid "2bef54ce-9104-4a77-be4c-59e1b2faa3b5")
-		)
-		(instances
-			(project "carrier-wave"
-				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -10212,6 +10050,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LM2990SX-12")
+		(at 104.14 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce977f4d-6640-4249-92fb-37a045c67ad7")
+		(property "Reference" "U9"
+			(at 104.14 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2940S-12"
+			(at 104.14 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
+			(at 104.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2940-n"
+			(at 72.39 11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Three termianl low-dropout 1A positive voltage regulator, Input 6V to 26V, Out 12V"
+			(at 104.14 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fef875bd-52b3-4b20-b45a-3a9370d41e2f")
+		)
+		(pin "1"
+			(uuid "e3e535ed-b09a-4438-9692-34b6644a0a02")
+		)
+		(pin "3"
+			(uuid "2cae6836-4897-42e7-b113-76f61092150c")
+		)
+		(instances
+			(project "carrier-wave"
+				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:AP2112K-3.3")
 		(at 201.93 153.67 0)
 		(unit 1)
@@ -10533,7 +10454,7 @@
 	)
 	(symbol
 		(lib_id "Interface:AD9834")
-		(at 52.07 77.47 0)
+		(at 39.37 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10544,7 +10465,7 @@
 		(fields_autoplaced yes)
 		(uuid "da07be00-dfc2-4f8c-902e-04e0ca0f4ceb")
 		(property "Reference" "U4"
-			(at 56.7533 92.71 0)
+			(at 44.0533 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10555,7 +10476,7 @@
 			)
 		)
 		(property "Value" "AD9834"
-			(at 56.7533 95.25 0)
+			(at 44.0533 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10566,7 +10487,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
-			(at 52.07 95.25 0)
+			(at 39.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10577,7 +10498,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/static/imported-files/data_sheets/AD9834.pdf"
-			(at -24.13 77.47 0)
+			(at -36.83 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10588,7 +10509,7 @@
 			)
 		)
 		(property "Description" "10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3V to 5.5V, 20mW, TSSOP-20"
-			(at 52.07 77.47 0)
+			(at 39.37 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10669,7 +10590,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:THS3491xDDA")
-		(at 109.22 83.82 0)
+		(at 110.49 97.79 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10680,7 +10601,7 @@
 		(dnp no)
 		(uuid "e3723503-e6e8-4cc3-996e-a04ba1f281d7")
 		(property "Reference" "U3"
-			(at 116.078 89.916 0)
+			(at 117.348 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10690,7 +10611,7 @@
 			)
 		)
 		(property "Value" "THS3491"
-			(at 116.078 87.376 0)
+			(at 117.348 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10700,7 +10621,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
-			(at 109.22 68.58 0)
+			(at 110.49 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10711,7 +10632,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ths3491.pdf"
-			(at 113.03 87.63 0)
+			(at 114.3 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10722,7 +10643,7 @@
 			)
 		)
 		(property "Description" "900-MHz, 500-mA High-Power Output Current Feedback Operational Amplifier, SOIC-8"
-			(at 109.22 83.82 0)
+			(at 110.49 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10771,7 +10692,7 @@
 	(symbol
 		(lib_name "TS5A3159ADCK_1")
 		(lib_id "Analog_Switch:TS5A3159ADCK")
-		(at 46.99 116.84 0)
+		(at 91.44 115.57 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10781,7 +10702,7 @@
 		(dnp no)
 		(uuid "f541d803-05d3-4867-b55c-330a4173aa55")
 		(property "Reference" "U7"
-			(at 48.26 123.19 0)
+			(at 88.9 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10792,7 +10713,7 @@
 			)
 		)
 		(property "Value" "TS5A3159ADCK"
-			(at 39.624 103.886 0)
+			(at 98.806 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10803,7 +10724,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 47.625 130.81 0)
+			(at 90.805 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10815,7 +10736,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf"
-			(at 47.625 128.27 0)
+			(at 90.805 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10827,7 +10748,7 @@
 			)
 		)
 		(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SC-70-6"
-			(at 46.99 116.84 0)
+			(at 91.44 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10863,6 +10784,10 @@
 				)
 			)
 		)
+	)
+	(group ""
+		(uuid "cf5f27ba-cfd3-4e0a-9733-1bb830203fc0")
+		(members "33f1f10b-00d6-4d59-a863-3344d36d6274" "f541d803-05d3-4867-b55c-330a4173aa55")
 	)
 	(sheet
 		(at 30.48 24.13)
