@@ -549,7 +549,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 1,
       "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -672,7 +672,7 @@
         "uuid": "dc900721-a2e3-4f11-b4f2-59bb3a47422e"
       }
     ],
-    "used_designators": "U8-9",
+    "used_designators": "U8-9,U202-203,L203-204,D203-204,#PWR7-10,#PWR107-108,#PWR212-222,C211-220,Q202,R208-214",
     "variants": []
   },
   "sheets": [
@@ -682,7 +682,7 @@
     ],
     [
       "3906e33f-01c0-4b3b-b4a0-f1028fb4a0a8",
-      "Dual Rail Boost Converter"
+      "±12V Rail Supply"
     ]
   ],
   "text_variables": {},
