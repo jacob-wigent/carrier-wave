@@ -1,0 +1,1516 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f845a3e4-6713-4cb6-b229-720db44d40c5")
+	(paper "A")
+	(title_block
+		(title "±5V Rail Charge Pump & Regulators")
+		(rev "A")
+		(company "Jacob Wigent")
+	)
+	(lib_symbols
+		(symbol "Regulator_SwitchedCapacitor:LM27762"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.604 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM27762"
+				(at 6.096 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias"
+				(at 3.81 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm27762.pdf"
+				(at 63.5 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Low-noise inverting charge pump with both positive and negative LDO's, with 2.7V-5.5V input to +1.5 to +5V and -1.5 to -5V Output Voltage, WSON-12"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Low-noise inverting charge pump with both positive and negative LDO's"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "WSON*1EP?3x2mm*P0.5mm*ThermalVias*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM27762_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM27762_1_1"
+				(pin open_collector line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "FB+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "CP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "FB-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -15.24 0)
+					(length 2.54)
+					(name "C-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "C+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "EN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -20.32 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "LM27762 Pin Definitions"
+		(exclude_from_sim no)
+		(at 12.7 158.75 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+			(href "https://www.ti.com/lit/ds/symlink/lm27762.pdf?ts=1775700372694&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM27762")
+		)
+		(uuid "aec7cdd9-e5a4-4da9-a117-65d6e0b98eb5")
+	)
+	(table
+		(column_count 4)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 21.59 21.59 21.59 81.28)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 5.08 5.08 2.54 2.54 2.54 5.08
+			2.54 2.54
+		)
+		(uuid "3dd50e7f-0e0d-4541-8b5c-543085303092")
+		(cells
+			(table_cell "NAME"
+				(exclude_from_sim no)
+				(at 12.7 160.02 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "758e100a-c9cb-47d2-9a9c-4cc65584a2dc")
+			)
+			(table_cell "NO"
+				(exclude_from_sim no)
+				(at 34.29 160.02 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "66ed1feb-d2a0-4747-9291-7077e6d9e2dc")
+			)
+			(table_cell "TYPE"
+				(exclude_from_sim no)
+				(at 55.88 160.02 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "82eaf38f-ea4e-4757-891a-1b410bc25152")
+			)
+			(table_cell "DESCRIPTION"
+				(exclude_from_sim no)
+				(at 77.47 160.02 0)
+				(size 81.28 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "010027bd-a3d4-405b-8018-6d8ee748a3a1")
+			)
+			(table_cell "C1+"
+				(exclude_from_sim no)
+				(at 12.7 162.56 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6490d93c-9c0d-4954-b157-dcd5534bac7f")
+			)
+			(table_cell "10"
+				(exclude_from_sim no)
+				(at 34.29 162.56 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "16d92162-3b8b-4446-b2db-d1ed3f58feca")
+			)
+			(table_cell "Power"
+				(exclude_from_sim no)
+				(at 55.88 162.56 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6fa1ba4d-5be5-4ec6-bff9-263d030e1693")
+			)
+			(table_cell "Positive terminal for C1"
+				(exclude_from_sim no)
+				(at 77.47 162.56 0)
+				(size 81.28 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "de1f4296-4d9c-4540-8a2d-9cf0a5987201")
+			)
+			(table_cell "C1-"
+				(exclude_from_sim no)
+				(at 12.7 165.1 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e84d2c1e-1c62-4892-ae51-e7509f154b92")
+			)
+			(table_cell "9"
+				(exclude_from_sim no)
+				(at 34.29 165.1 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c33d9d3b-4d8d-4ba9-9299-4df219cf9208")
+			)
+			(table_cell "Power"
+				(exclude_from_sim no)
+				(at 55.88 165.1 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b28a9f1a-ec87-4bbd-9e4b-d256fd63a24b")
+			)
+			(table_cell "Negative terminal for C1"
+				(exclude_from_sim no)
+				(at 77.47 165.1 0)
+				(size 81.28 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d1baa206-941d-427a-a824-cafe4905c6db")
+			)
+			(table_cell "CP"
+				(exclude_from_sim no)
+				(at 12.7 167.64 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9ee66d47-637d-4615-9390-5a47bae35a6a")
+			)
+			(table_cell "5"
+				(exclude_from_sim no)
+				(at 34.29 167.64 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "21d08427-7bc9-446d-b760-423a91300dae")
+			)
+			(table_cell "Power"
+				(exclude_from_sim no)
+				(at 55.88 167.64 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6e681140-2af0-4205-8499-5c8644130fbf")
+			)
+			(table_cell "Negative unregulated output voltage"
+				(exclude_from_sim no)
+				(at 77.47 167.64 0)
+				(size 81.28 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e3a76bb4-ffc6-4073-b718-f4c8ee94e63f")
+			)
+			(table_cell "EN+"
+				(exclude_from_sim no)
+				(at 12.7 170.18 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "193efb1c-1507-4c85-b17f-6e37ead21464")
+			)
+			(table_cell "12"
+				(exclude_from_sim no)
+				(at 34.29 170.18 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a50e5b84-7e6f-407c-bdfd-a752d929bc9d")
+			)
+			(table_cell "Input"
+				(exclude_from_sim no)
+				(at 55.88 170.18 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "610b2b3b-74c3-442f-b509-57b684bcd1ba")
+			)
+			(table_cell "Enable input for the positive LDO Active high"
+				(exclude_from_sim no)
+				(at 77.47 170.18 0)
+				(size 81.28 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3dac4208-1b4b-4ab1-a92c-45f48b25dfdd")
+			)
+			(table_cell "EN-"
+				(exclude_from_sim no)
+				(at 12.7 172.72 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "924d55a3-e312-4a08-b469-8e3bdcc97862")
+			)
+			(table_cell "8"
+				(exclude_from_sim no)
+				(at 34.29 172.72 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3da1119b-05e7-4340-be32-4f2b039fdfe1")
+			)
+			(table_cell "Input"
+				(exclude_from_sim no)
+				(at 55.88 172.72 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ccac259b-bf96-437d-a7af-7905ca09a4cf")
+			)
+			(table_cell "Enable input for the charge pump and negative LDO Active high"
+				(exclude_from_sim no)
+				(at 77.47 172.72 0)
+				(size 81.28 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2b3cea3e-c646-44af-a47b-d1b657fde7f6")
+			)
+			(table_cell "FB+"
+				(exclude_from_sim no)
+				(at 12.7 175.26 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fe9ff677-ca72-43c3-9afc-cbd777c6e2d8")
+			)
+			(table_cell "2"
+				(exclude_from_sim no)
+				(at 34.29 175.26 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ce1cbba2-1eaf-4567-9dcc-3578bc7404db")
+			)
+			(table_cell "Power"
+				(exclude_from_sim no)
+				(at 55.88 175.26 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9bf97578-cba6-4012-b0cd-97f0b1d968c8")
+			)
+			(table_cell "Feedback input Connect FB+ to a resistor divider between OUT+ and GND Do not leave unconnected"
+				(exclude_from_sim no)
+				(at 77.47 175.26 0)
+				(size 81.28 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b1f13e36-6b48-4ad0-992f-e34022309258")
+			)
+			(table_cell "FB-"
+				(exclude_from_sim no)
+				(at 12.7 180.34 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "5462a9ec-ad5d-4a17-8aa3-4b99e8cf5a5c")
+			)
+			(table_cell "7"
+				(exclude_from_sim no)
+				(at 34.29 180.34 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c8fe6709-7e59-47d3-bf4e-ba39a4ec8632")
+			)
+			(table_cell "Power"
+				(exclude_from_sim no)
+				(at 55.88 180.34 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e12df136-cedb-443b-a331-c26b0508499f")
+			)
+			(table_cell "Feedback input Connect FB- to a resistor divider between OUT- and GND Do not leave unconnected"
+				(exclude_from_sim no)
+				(at 77.47 180.34 0)
+				(size 81.28 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1d5b4de1-0bcf-4989-b6c9-f35a771d4268")
+			)
+			(table_cell "GND"
+				(exclude_from_sim no)
+				(at 12.7 185.42 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fd99619d-3276-472e-92ae-d4ca0a315d54")
+			)
+			(table_cell "4"
+				(exclude_from_sim no)
+				(at 34.29 185.42 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a224f9aa-9a77-4514-ae7e-5688f5a20c2a")
+			)
+			(table_cell "Ground"
+				(exclude_from_sim no)
+				(at 55.88 185.42 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2b18c252-9e2d-4dfe-baa0-212422630ce6")
+			)
+			(table_cell "Ground"
+				(exclude_from_sim no)
+				(at 77.47 185.42 0)
+				(size 81.28 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8f0667e5-5369-4272-8c80-971f436189b1")
+			)
+			(table_cell "OUT+"
+				(exclude_from_sim no)
+				(at 12.7 187.96 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "72e3ee7a-ff0f-4d38-bf45-ce792ccfe2a0")
+			)
+			(table_cell "11"
+				(exclude_from_sim no)
+				(at 34.29 187.96 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "06809841-6366-434d-a3c7-8fe47e026ca7")
+			)
+			(table_cell "Power"
+				(exclude_from_sim no)
+				(at 55.88 187.96 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "365a58cc-e7af-433d-818e-3d5002ba27a0")
+			)
+			(table_cell "Regulated positive output voltage"
+				(exclude_from_sim no)
+				(at 77.47 187.96 0)
+				(size 81.28 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f583af58-3736-42b5-8e92-ed73427bbbb3")
+			)
+			(table_cell "OUT-"
+				(exclude_from_sim no)
+				(at 12.7 190.5 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "29bf8612-f50d-4f5c-a994-62b0c0b209b2")
+			)
+			(table_cell "6"
+				(exclude_from_sim no)
+				(at 34.29 190.5 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8eb8942e-3663-422b-a0a6-a9d1a93f1b4a")
+			)
+			(table_cell "Power"
+				(exclude_from_sim no)
+				(at 55.88 190.5 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "412cc3f3-6922-4a47-81f4-9b6bcf5af5c5")
+			)
+			(table_cell "Regulated negative output voltage"
+				(exclude_from_sim no)
+				(at 77.47 190.5 0)
+				(size 81.28 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7b5df051-ed7d-4ed3-964a-3e9864e48eaf")
+			)
+			(table_cell "PGOOD"
+				(exclude_from_sim no)
+				(at 12.7 193.04 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "407fd242-26f4-4e12-a73d-34fc0a0725ec")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 34.29 193.04 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "57032653-d9b7-4551-9e37-8d8014260e86")
+			)
+			(table_cell "Output"
+				(exclude_from_sim no)
+				(at 55.88 193.04 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "71804135-6332-46a7-975f-255154944156")
+			)
+			(table_cell "Power good flag open drain logic 0 equals power good logic 1 equals not good connect to ground if unused"
+				(exclude_from_sim no)
+				(at 77.47 193.04 0)
+				(size 81.28 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "207e42f4-2f41-4924-bc8e-01de001d7726")
+			)
+			(table_cell "VIN"
+				(exclude_from_sim no)
+				(at 12.7 198.12 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d47c8ffc-39c8-4b44-96c9-e9609fb07c7d")
+			)
+			(table_cell "3"
+				(exclude_from_sim no)
+				(at 34.29 198.12 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "091d0d4c-ca13-4a3c-9d5f-8f960b31704c")
+			)
+			(table_cell "Power"
+				(exclude_from_sim no)
+				(at 55.88 198.12 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7b249731-f2c5-4352-863c-272e6043309c")
+			)
+			(table_cell "Positive power supply input"
+				(exclude_from_sim no)
+				(at 77.47 198.12 0)
+				(size 81.28 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e5361ab9-dd68-4d78-9241-ef785aed460b")
+			)
+			(table_cell "Thermal Pad"
+				(exclude_from_sim no)
+				(at 12.7 200.66 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "860ac5d9-c4a6-455f-9cee-fc773ce9cc32")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 34.29 200.66 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "523d97c9-f619-414d-a10f-1cc062eaa078")
+			)
+			(table_cell "Ground"
+				(exclude_from_sim no)
+				(at 55.88 200.66 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f39aa5c7-3ee7-4aa2-899c-1cbefd24060a")
+			)
+			(table_cell "Ground Do not leave unconnected"
+				(exclude_from_sim no)
+				(at 77.47 200.66 0)
+				(size 81.28 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "02fbcc3c-d582-4174-8842-4aed64bfceca")
+			)
+		)
+	)
+	(hierarchical_label "VPOS"
+		(shape input)
+		(at 168.91 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "41efa137-e60e-4345-88d0-55dfa5934b86")
+	)
+	(hierarchical_label "VNEG"
+		(shape input)
+		(at 168.91 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "790a6eb7-50af-461a-b7f9-0454b7dee3fd")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 113.03 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "934ed82e-9231-4235-a62d-decad5686b1d")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 113.03 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "93fc059d-4cb3-4564-bd22-8562eda0aba3")
+	)
+	(symbol
+		(lib_id "Regulator_SwitchedCapacitor:LM27762")
+		(at 140.97 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7940c272-66e0-4fdd-a2ca-557d137e09ea")
+		(property "Reference" "U5"
+			(at 142.24 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM27762"
+			(at 142.24 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias"
+			(at 144.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm27762.pdf"
+			(at 204.47 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-noise inverting charge pump with both positive and negative LDO's, with 2.7V-5.5V input to +1.5 to +5V and -1.5 to -5V Output Voltage, WSON-12"
+			(at 140.97 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8102b012-bb04-4b8b-b643-915e7cde6f47")
+		)
+		(pin "12"
+			(uuid "aa8b0e48-61ad-4e5f-83b3-32704d2d66ef")
+		)
+		(pin "13"
+			(uuid "c473f110-ca6f-46fb-9309-f95422cfe433")
+		)
+		(pin "6"
+			(uuid "e42db2f4-81cf-413f-a040-aebbd9dee30f")
+		)
+		(pin "11"
+			(uuid "173e0c41-a476-4f3e-900d-f8814b12dc81")
+		)
+		(pin "3"
+			(uuid "e9fb4955-ba50-4bc3-85b4-fb8f239ba0ce")
+		)
+		(pin "4"
+			(uuid "16b4d28c-36d6-4e11-b0e6-88ea6fe69506")
+		)
+		(pin "5"
+			(uuid "2c5a0fc4-df82-4d6e-b81d-49b1ace6347d")
+		)
+		(pin "10"
+			(uuid "c9dc4e5b-c71a-4c03-a4ad-4aa98ac9a855")
+		)
+		(pin "1"
+			(uuid "f386fef4-600b-4675-98b8-f581dceb2cf1")
+		)
+		(pin "8"
+			(uuid "7e859baa-c30f-40c4-ac75-4fd900fb44ab")
+		)
+		(pin "7"
+			(uuid "3b0d8663-96ad-40f6-a613-cfd3b379e750")
+		)
+		(pin "9"
+			(uuid "2fcec558-1844-4b1c-85cb-6c92a760138a")
+		)
+		(instances
+			(project "carrier-wave"
+				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e/77b69eb8-e4cd-4b8d-b780-853d4e199da3"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

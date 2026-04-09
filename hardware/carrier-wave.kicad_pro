@@ -672,7 +672,7 @@
         "uuid": "dc900721-a2e3-4f11-b4f2-59bb3a47422e"
       }
     ],
-    "used_designators": "U8-9,U202-203,L203-204,D203-204,#PWR7-10,#PWR107-108,#PWR212-222,C211-220,Q202,R208-214",
+    "used_designators": "U8-9,U202-203,L203-204,D203-204,#PWR7-10,#PWR107-111,#PWR212-222,C211-220,Q202,R208-214",
     "variants": []
   },
   "sheets": [
@@ -683,6 +683,10 @@
     [
       "3906e33f-01c0-4b3b-b4a0-f1028fb4a0a8",
       "±12V Rail Supply"
+    ],
+    [
+      "77b69eb8-e4cd-4b8d-b780-853d4e199da3",
+      "±5V Rail Supply"
     ]
   ],
   "text_variables": {},
