@@ -21,7 +21,7 @@ The Carrier-Wave hardware combines DDS-based digital waveform generation with a 
 - **Dual-rail Boost Converter (TPS65131)**  
   - Generates positive and negative rails for analog output stage 
 
-- **±12V LDOs (LM2940 & LM2990)**  
+- **±12V Dual LDO (TPS7A39)**  
   - Post-regulation for analog output rails  
   - Reduces ripple and switching noise from boost stage
 
