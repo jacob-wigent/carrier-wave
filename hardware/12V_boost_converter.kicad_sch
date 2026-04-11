@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "±12V Rail Boost Converter & Regulators")
-		(date "2026-04-09")
+		(date "2026-04-11")
 		(rev "A")
 		(company "Jacob Wigent")
 	)
@@ -6135,7 +6135,7 @@
 		)
 	)
 	(hierarchical_label "VNEG"
-		(shape input)
+		(shape output)
 		(at 224.79 88.265 0)
 		(effects
 			(font
@@ -6168,7 +6168,7 @@
 		(uuid "6ad2f276-9f11-4f86-ae90-9a689d582e88")
 	)
 	(hierarchical_label "VPOS"
-		(shape input)
+		(shape output)
 		(at 224.79 62.865 0)
 		(effects
 			(font

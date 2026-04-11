@@ -672,7 +672,7 @@
         "uuid": "dc900721-a2e3-4f11-b4f2-59bb3a47422e"
       }
     ],
-    "used_designators": "#PWR205,#PWR212-216,C211-215,R208-211,U202",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -687,6 +687,10 @@
     [
       "77b69eb8-e4cd-4b8d-b780-853d4e199da3",
       "±5V Rail Supply"
+    ],
+    [
+      "c8ec5524-467d-47df-8ba8-a845ef3751ec",
+      "USB C Interface"
     ]
   ],
   "text_variables": {},
