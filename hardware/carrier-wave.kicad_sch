@@ -11044,7 +11044,7 @@
 				(justify left)
 			)
 		)
-		(pin "VNEG" output
+		(pin "VNEG" input
 			(at 50.8 33.02 0)
 			(uuid "adc68c14-515d-4465-ae73-1688cca18b55")
 			(effects
@@ -11054,7 +11054,7 @@
 				(justify right)
 			)
 		)
-		(pin "VPOS" output
+		(pin "VPOS" input
 			(at 50.8 27.94 0)
 			(uuid "c081e970-0f3d-471e-9d3a-99ea8394d749")
 			(effects
