@@ -2500,17 +2500,42 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 12.7 154.94)
+		(end 158.75 203.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f1b76934-f24d-449a-8b21-129960570d8b")
+	)
+	(text "Component Selection"
+		(exclude_from_sim no)
+		(at 13.716 158.496 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "680460b1-9716-4c94-9292-a80a23c74612")
+	)
 	(no_connect
-		(at 31.75 34.29)
+		(at 39.37 38.1)
 		(uuid "2dc9a079-84ac-4532-862a-55e19c966807")
 	)
 	(no_connect
-		(at 31.75 36.83)
+		(at 39.37 40.64)
 		(uuid "ceef1078-2572-4847-93d5-d4301bd8bc3b")
 	)
 	(wire
 		(pts
-			(xy 46.99 49.53) (xy 60.96 49.53)
+			(xy 58.42 85.09) (xy 44.45 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2520,7 +2545,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 44.45) (xy 60.96 44.45)
+			(xy 52.07 80.01) (xy 44.45 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2530,7 +2555,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 26.67) (xy 40.64 26.67)
+			(xy 39.37 30.48) (xy 48.26 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2540,7 +2565,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 21.59) (xy 86.36 21.59)
+			(xy 24.13 57.15) (xy 19.05 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2550,7 +2575,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 26.67) (xy 86.36 26.67)
+			(xy 24.13 62.23) (xy 19.05 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2560,7 +2585,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 49.53) (xy 86.36 49.53)
+			(xy 24.13 85.09) (xy 19.05 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2570,7 +2595,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 44.45) (xy 86.36 44.45)
+			(xy 24.13 80.01) (xy 19.05 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2580,7 +2605,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 21.59) (xy 40.64 21.59)
+			(xy 39.37 25.4) (xy 48.26 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2590,7 +2615,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 21.59) (xy 60.96 21.59)
+			(xy 52.07 57.15) (xy 44.45 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2600,7 +2625,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 26.67) (xy 60.96 26.67)
+			(xy 58.42 62.23) (xy 44.45 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2610,7 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 29.21) (xy 40.64 29.21)
+			(xy 39.37 33.02) (xy 48.26 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2619,7 +2644,7 @@
 		(uuid "d0b65b5d-706b-4406-8330-15f3d43aa964")
 	)
 	(label "USB_D-"
-		(at 40.64 26.67 180)
+		(at 48.26 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2629,17 +2654,17 @@
 		(uuid "26e6dc8d-4cf3-486f-a744-05948dc071ef")
 	)
 	(label "EN_PWR_5V"
-		(at 46.99 49.53 0)
+		(at 58.42 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3f781e9e-bcd7-4954-b79e-a84d30a6ebd4")
 	)
 	(label "USB_D+"
-		(at 40.64 29.21 180)
+		(at 48.26 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2649,18 +2674,19 @@
 		(uuid "8f944f09-fec4-4389-85da-a07c02f78c7f")
 	)
 	(label "EN_PWR_12V"
-		(at 46.99 26.67 0)
+		(at 58.42 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e69f1085-0dfe-4632-a9f5-a38d976ff9e6")
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 53.34 21.59 0)
+		(at 52.07 57.15 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2670,7 +2696,7 @@
 		(dnp no)
 		(uuid "15eb16da-724e-4c8e-ae14-1874b05dc45e")
 		(property "Reference" "#PWR06"
-			(at 53.34 25.4 0)
+			(at 52.07 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2681,7 +2707,7 @@
 			)
 		)
 		(property "Value" "VBUSF"
-			(at 53.34 17.78 0)
+			(at 52.07 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2691,7 +2717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 21.59 0)
+			(at 52.07 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2702,7 +2728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 21.59 0)
+			(at 52.07 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2713,7 +2739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 53.34 21.59 0)
+			(at 52.07 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2737,7 +2763,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:TS5A3159ADCK")
-		(at 96.52 182.88 90)
+		(at 86.36 185.42 90)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2747,7 +2773,7 @@
 		(dnp no)
 		(uuid "33f1f10b-00d6-4d59-a863-3344d36d6274")
 		(property "Reference" "U7"
-			(at 98.552 185.674 90)
+			(at 88.392 188.214 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2758,7 +2784,7 @@
 			)
 		)
 		(property "Value" "TS5A3159ADCK"
-			(at 97.79 180.34 0)
+			(at 87.63 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2770,7 +2796,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 110.49 182.245 0)
+			(at 100.33 184.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2782,7 +2808,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf"
-			(at 107.95 182.245 0)
+			(at 97.79 184.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2794,7 +2820,7 @@
 			)
 		)
 		(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SC-70-6"
-			(at 96.52 182.88 0)
+			(at 86.36 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2833,8 +2859,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 86.36 26.67 0)
-		(mirror x)
+		(at 19.05 62.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2845,7 +2870,7 @@
 		(fields_autoplaced yes)
 		(uuid "51a64979-0bf5-44e8-befe-976ea9e3b1cd")
 		(property "Reference" "#PWR0108"
-			(at 86.36 22.86 0)
+			(at 19.05 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2856,7 +2881,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 86.36 31.75 0)
+			(at 19.05 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2866,7 +2891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 26.67 0)
+			(at 19.05 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2877,7 +2902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 26.67 0)
+			(at 19.05 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2888,7 +2913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 86.36 26.67 0)
+			(at 19.05 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2912,7 +2937,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 40.64 21.59 0)
+		(at 48.26 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2922,7 +2947,7 @@
 		(dnp no)
 		(uuid "77a1400d-9a10-4c1b-82a9-fe5b5c42576b")
 		(property "Reference" "#PWR0112"
-			(at 40.64 25.4 0)
+			(at 48.26 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2933,7 +2958,7 @@
 			)
 		)
 		(property "Value" "VBUSF"
-			(at 40.64 17.78 0)
+			(at 48.26 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2943,7 +2968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 21.59 0)
+			(at 48.26 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2954,7 +2979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 21.59 0)
+			(at 48.26 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2965,7 +2990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 40.64 21.59 0)
+			(at 48.26 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2989,7 +3014,7 @@
 	)
 	(symbol
 		(lib_id "carrier-wave:OPA695")
-		(at 77.47 160.02 0)
+		(at 64.77 172.72 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3000,7 +3025,7 @@
 		(dnp no)
 		(uuid "7cf7897d-db38-4125-889f-0176b7ac176e")
 		(property "Reference" "U2"
-			(at 82.296 166.624 0)
+			(at 69.596 179.324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3010,7 +3035,7 @@
 			)
 		)
 		(property "Value" "OPA695"
-			(at 82.296 164.084 0)
+			(at 69.596 176.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3020,7 +3045,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 80.01 153.67 0)
+			(at 67.31 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3032,7 +3057,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa695.pdf"
-			(at 81.28 163.83 0)
+			(at 68.58 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3043,7 +3068,7 @@
 			)
 		)
 		(property "Description" "Ultra-Wideband, Current-Feedback Operational Amplifier With Disable"
-			(at 77.47 160.02 0)
+			(at 64.77 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3082,7 +3107,8 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 86.36 44.45 0)
+		(at 19.05 80.01 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3093,7 +3119,7 @@
 		(fields_autoplaced yes)
 		(uuid "8666ac81-ba71-4503-bb44-d0e5e6a9ecc1")
 		(property "Reference" "#PWR0110"
-			(at 86.36 48.26 0)
+			(at 19.05 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3104,7 +3130,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 86.36 39.37 0)
+			(at 19.05 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3114,7 +3140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 44.45 0)
+			(at 19.05 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3125,7 +3151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 44.45 0)
+			(at 19.05 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3136,7 +3162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 86.36 44.45 0)
+			(at 19.05 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +3186,8 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 53.34 44.45 0)
+		(at 52.07 80.01 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3170,7 +3197,7 @@
 		(dnp no)
 		(uuid "8f029690-0cee-4f35-9617-c11445740f67")
 		(property "Reference" "#PWR0109"
-			(at 53.34 48.26 0)
+			(at 52.07 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3181,7 +3208,7 @@
 			)
 		)
 		(property "Value" "VBUSF"
-			(at 53.34 40.64 0)
+			(at 52.07 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3191,7 +3218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 44.45 0)
+			(at 52.07 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3202,7 +3229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 44.45 0)
+			(at 52.07 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3213,7 +3240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 53.34 44.45 0)
+			(at 52.07 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3237,8 +3264,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 86.36 49.53 0)
-		(mirror x)
+		(at 19.05 85.09 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3249,7 +3275,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8fcf4ac-cffa-4c2a-b185-8f33feddb12b")
 		(property "Reference" "#PWR0111"
-			(at 86.36 45.72 0)
+			(at 19.05 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3260,7 +3286,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 86.36 54.61 0)
+			(at 19.05 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3270,7 +3296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 49.53 0)
+			(at 19.05 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3281,7 +3307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 49.53 0)
+			(at 19.05 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3292,7 +3318,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 86.36 49.53 0)
+			(at 19.05 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3316,7 +3342,7 @@
 	)
 	(symbol
 		(lib_id "Interface:AD9834")
-		(at 44.45 165.1 0)
+		(at 34.29 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3327,7 +3353,7 @@
 		(fields_autoplaced yes)
 		(uuid "da07be00-dfc2-4f8c-902e-04e0ca0f4ceb")
 		(property "Reference" "U4"
-			(at 49.1333 180.34 0)
+			(at 38.9733 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3338,7 +3364,7 @@
 			)
 		)
 		(property "Value" "AD9834"
-			(at 49.1333 182.88 0)
+			(at 38.9733 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3349,7 +3375,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
-			(at 44.45 182.88 0)
+			(at 34.29 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3360,7 +3386,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/static/imported-files/data_sheets/AD9834.pdf"
-			(at -31.75 165.1 0)
+			(at -41.91 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3371,7 +3397,7 @@
 			)
 		)
 		(property "Description" "10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3V to 5.5V, 20mW, TSSOP-20"
-			(at 44.45 165.1 0)
+			(at 34.29 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3452,7 +3478,8 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 86.36 21.59 0)
+		(at 19.05 57.15 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3463,7 +3490,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0d13f86-7036-4192-9d66-99e71e1a8991")
 		(property "Reference" "#PWR0107"
-			(at 86.36 25.4 0)
+			(at 19.05 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3474,7 +3501,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 86.36 16.51 0)
+			(at 19.05 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3484,7 +3511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 21.59 0)
+			(at 19.05 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3495,7 +3522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 21.59 0)
+			(at 19.05 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3506,7 +3533,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 86.36 21.59 0)
+			(at 19.05 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,7 +3557,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:THS3491xDDA")
-		(at 115.57 158.75 0)
+		(at 64.77 190.5 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3541,7 +3568,7 @@
 		(dnp no)
 		(uuid "e3723503-e6e8-4cc3-996e-a04ba1f281d7")
 		(property "Reference" "U3"
-			(at 122.428 164.846 0)
+			(at 71.628 196.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3551,7 +3578,7 @@
 			)
 		)
 		(property "Value" "THS3491"
-			(at 122.428 162.306 0)
+			(at 71.628 194.056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3561,7 +3588,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
-			(at 115.57 143.51 0)
+			(at 64.77 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3572,7 +3599,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ths3491.pdf"
-			(at 119.38 162.56 0)
+			(at 68.58 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3583,7 +3610,7 @@
 			)
 		)
 		(property "Description" "900-MHz, 500-mA High-Power Output Current Feedback Operational Amplifier, SOIC-8"
-			(at 115.57 158.75 0)
+			(at 64.77 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3632,7 +3659,7 @@
 	(symbol
 		(lib_name "TS5A3159ADCK_1")
 		(lib_id "Analog_Switch:TS5A3159ADCK")
-		(at 96.52 176.53 180)
+		(at 86.36 179.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3642,7 +3669,7 @@
 		(dnp no)
 		(uuid "f541d803-05d3-4867-b55c-330a4173aa55")
 		(property "Reference" "U7"
-			(at 93.98 170.18 0)
+			(at 83.82 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3653,7 +3680,7 @@
 			)
 		)
 		(property "Value" "TS5A3159ADCK"
-			(at 103.886 189.484 0)
+			(at 93.726 192.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3664,7 +3691,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 95.885 162.56 0)
+			(at 85.725 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3676,7 +3703,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf"
-			(at 95.885 165.1 0)
+			(at 85.725 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3688,7 +3715,7 @@
 			)
 		)
 		(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SC-70-6"
-			(at 96.52 176.53 0)
+			(at 86.36 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3730,7 +3757,7 @@
 		(members "33f1f10b-00d6-4d59-a863-3344d36d6274" "f541d803-05d3-4867-b55c-330a4173aa55")
 	)
 	(sheet
-		(at 60.96 17.78)
+		(at 24.13 53.34)
 		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3745,7 +3772,7 @@
 		)
 		(uuid "3906e33f-01c0-4b3b-b4a0-f1028fb4a0a8")
 		(property "Sheetname" "±12V Rail Supply"
-			(at 71.12 16.51 0)
+			(at 34.29 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3756,7 +3783,7 @@
 			)
 		)
 		(property "Sheetfile" "12V_boost_converter.kicad_sch"
-			(at 60.96 31.0646 0)
+			(at 24.13 66.6246 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3768,7 +3795,7 @@
 			)
 		)
 		(property "Component" "TPS65131RGE / LM2940 & LM2990"
-			(at 78.74 16.51 0)
+			(at 41.91 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3779,43 +3806,43 @@
 			)
 		)
 		(pin "VIN" input
-			(at 60.96 21.59 180)
+			(at 44.45 57.15 0)
 			(uuid "f962f1f3-c532-4511-ad4f-1266113ca5c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VNEG" output
-			(at 81.28 26.67 0)
+			(at 24.13 62.23 180)
 			(uuid "adc68c14-515d-4465-ae73-1688cca18b55")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VPOS" output
-			(at 81.28 21.59 0)
+			(at 24.13 57.15 180)
 			(uuid "c081e970-0f3d-471e-9d3a-99ea8394d749")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "EN" input
-			(at 60.96 26.67 180)
+			(at 44.45 62.23 0)
 			(uuid "2bb217c5-7695-4e31-8180-a1b5f436a662")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -3827,7 +3854,7 @@
 		)
 	)
 	(sheet
-		(at 60.96 40.64)
+		(at 24.13 76.2)
 		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3842,7 +3869,7 @@
 		)
 		(uuid "77b69eb8-e4cd-4b8d-b780-853d4e199da3")
 		(property "Sheetname" "±5V Rail Supply"
-			(at 71.12 39.37 0)
+			(at 34.29 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3853,7 +3880,7 @@
 			)
 		)
 		(property "Sheetfile" "charge_pump_ldo.kicad_sch"
-			(at 60.96 53.9246 0)
+			(at 24.13 89.4846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3865,43 +3892,43 @@
 			)
 		)
 		(pin "EN" input
-			(at 60.96 49.53 180)
+			(at 44.45 85.09 0)
 			(uuid "1f3443ea-62c2-4d18-ba19-ad6db64c5a93")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VIN" input
-			(at 60.96 44.45 180)
+			(at 44.45 80.01 0)
 			(uuid "d5609bd7-5bc8-46fd-89dc-f9ad103c4b4f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VNEG" output
-			(at 81.28 49.53 0)
+			(at 24.13 85.09 180)
 			(uuid "172867cf-e9b6-4c62-b31b-6e525d27535e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VPOS" output
-			(at 81.28 44.45 0)
+			(at 24.13 80.01 180)
 			(uuid "17d59c72-11d0-4003-8ac4-3e549aa49b9e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -3913,7 +3940,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 17.78)
+		(at 24.13 21.59)
 		(size 15.24 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3928,7 +3955,7 @@
 		)
 		(uuid "c8ec5524-467d-47df-8ba8-a845ef3751ec")
 		(property "Sheetname" "USB C Interface"
-			(at 16.51 16.51 0)
+			(at 24.13 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3939,7 +3966,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_interface.kicad_sch"
-			(at 16.51 31.1408 0)
+			(at 24.13 34.9508 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3951,7 +3978,7 @@
 			)
 		)
 		(pin "CC1" bidirectional
-			(at 31.75 34.29 0)
+			(at 39.37 38.1 0)
 			(uuid "836d976f-7f2d-4129-9282-9aed5b523c2b")
 			(effects
 				(font
@@ -3961,7 +3988,7 @@
 			)
 		)
 		(pin "CC2" bidirectional
-			(at 31.75 36.83 0)
+			(at 39.37 40.64 0)
 			(uuid "af6ab509-5a6b-4e52-87d8-5c4ad57dcf98")
 			(effects
 				(font
@@ -3971,7 +3998,7 @@
 			)
 		)
 		(pin "D+" bidirectional
-			(at 31.75 29.21 0)
+			(at 39.37 33.02 0)
 			(uuid "654ded37-7f50-4cd4-9238-700525cf35f6")
 			(effects
 				(font
@@ -3981,7 +4008,7 @@
 			)
 		)
 		(pin "D-" bidirectional
-			(at 31.75 26.67 0)
+			(at 39.37 30.48 0)
 			(uuid "01ef542a-7ad6-4a7e-9fa3-1dbd19e5fcd8")
 			(effects
 				(font
@@ -3991,7 +4018,7 @@
 			)
 		)
 		(pin "VBUSF" output
-			(at 31.75 21.59 0)
+			(at 39.37 25.4 0)
 			(uuid "e54bd1e5-5773-44e4-ad43-ac2fe1a378d0")
 			(effects
 				(font
