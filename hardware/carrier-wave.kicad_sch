@@ -2653,7 +2653,7 @@
 		)
 		(uuid "26e6dc8d-4cf3-486f-a744-05948dc071ef")
 	)
-	(label "EN_PWR_3V3"
+	(label "EN_PWR_3.3V"
 		(at 92.71 52.07 180)
 		(effects
 			(font
@@ -2880,7 +2880,7 @@
 				)
 			)
 		)
-		(property "Value" "-12V"
+		(property "Value" "-12VA"
 			(at 53.34 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3207,7 +3207,7 @@
 				)
 			)
 		)
-		(property "Value" "-3V3"
+		(property "Value" "-3.3VA"
 			(at 53.34 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,8 +3285,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 53.34 42.545 0)
+		(property "Value" "+3.3VA"
+			(at 53.34 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3500,7 +3500,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+12VA"
 			(at 53.34 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3854,6 +3854,52 @@
 		)
 	)
 	(sheet
+		(at 58.42 64.77)
+		(size 20.32 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "59c83465-6184-4880-a73c-6ec239d4f637")
+		(property "Sheetname" "3.3V Digital Supply"
+			(at 68.58 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "3V_digital_supply.kicad_sch"
+			(at 58.42 78.1308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carrier-wave"
+				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 58.42 43.18)
 		(size 20.32 12.7)
 		(exclude_from_sim no)
@@ -4031,6 +4077,53 @@
 			(project "carrier-wave"
 				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 33.655)
+		(size 43.815 90.805)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "cff597bb-36f0-48e7-add8-61429dcc6843")
+		(property "Sheetname" "Microcontroller"
+			(at 113.03 32.9434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 113.03 125.0446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carrier-wave"
+				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e"
+					(page "5")
 				)
 			)
 		)
