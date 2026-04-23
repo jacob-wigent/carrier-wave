@@ -5,7 +5,7 @@
 	(uuid "f845a3e4-6713-4cb6-b229-720db44d40c5")
 	(paper "A")
 	(title_block
-		(title "±5V Rail Charge Pump & Regulators")
+		(title "±3.3V Rail Charge Pump & Regulators")
 		(rev "A")
 		(company "Jacob Wigent")
 	)

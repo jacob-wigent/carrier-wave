@@ -132,7 +132,7 @@
         "max_error": 0.005,
         "min_clearance": 0.15,
         "min_connection": 0.15,
-        "min_copper_edge_clearance": 0.2,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -672,7 +672,7 @@
         "uuid": "dc900721-a2e3-4f11-b4f2-59bb3a47422e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U401,#PWR101-102,#PWR409-410,C404,R403-404",
     "variants": []
   },
   "sheets": [
@@ -686,7 +686,7 @@
     ],
     [
       "77b69eb8-e4cd-4b8d-b780-853d4e199da3",
-      "±5V Rail Supply"
+      "±3.3V Rail Supply"
     ],
     [
       "c8ec5524-467d-47df-8ba8-a845ef3751ec",

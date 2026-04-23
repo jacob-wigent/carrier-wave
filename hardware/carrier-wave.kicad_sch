@@ -1991,7 +1991,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2016,7 +2016,7 @@
 					)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2048,7 +2048,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2070,7 +2070,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2108,7 +2108,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2245,7 +2245,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-5V"
+		(symbol "power:-3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2270,7 +2270,7 @@
 					)
 				)
 			)
-			(property "Value" "-5V"
+			(property "Value" "-3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2302,7 +2302,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(property "Description" "Power symbol creates a global label with name \"-3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2324,7 +2324,7 @@
 					)
 				)
 			)
-			(symbol "-5V_0_0"
+			(symbol "-3V3_0_0"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2344,7 +2344,7 @@
 					)
 				)
 			)
-			(symbol "-5V_0_1"
+			(symbol "-3V3_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
@@ -2526,16 +2526,16 @@
 		(uuid "680460b1-9716-4c94-9292-a80a23c74612")
 	)
 	(no_connect
-		(at 39.37 38.1)
+		(at 33.02 36.83)
 		(uuid "2dc9a079-84ac-4532-862a-55e19c966807")
 	)
 	(no_connect
-		(at 39.37 40.64)
+		(at 33.02 39.37)
 		(uuid "ceef1078-2572-4847-93d5-d4301bd8bc3b")
 	)
 	(wire
 		(pts
-			(xy 58.42 85.09) (xy 44.45 85.09)
+			(xy 92.71 52.07) (xy 78.74 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2545,7 +2545,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 80.01) (xy 44.45 80.01)
+			(xy 86.36 46.99) (xy 78.74 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2555,7 +2555,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 30.48) (xy 48.26 30.48)
+			(xy 33.02 29.21) (xy 41.91 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2565,7 +2565,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 57.15) (xy 19.05 57.15)
+			(xy 58.42 24.13) (xy 53.34 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2575,7 +2575,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 62.23) (xy 19.05 62.23)
+			(xy 58.42 29.21) (xy 53.34 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2585,7 +2585,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 85.09) (xy 19.05 85.09)
+			(xy 58.42 52.07) (xy 53.34 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2595,7 +2595,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 80.01) (xy 19.05 80.01)
+			(xy 58.42 46.99) (xy 53.34 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2605,7 +2605,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 25.4) (xy 48.26 25.4)
+			(xy 33.02 24.13) (xy 41.91 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2615,7 +2615,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 57.15) (xy 44.45 57.15)
+			(xy 86.36 24.13) (xy 78.74 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2625,7 +2625,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 62.23) (xy 44.45 62.23)
+			(xy 92.71 29.21) (xy 78.74 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2635,7 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 33.02) (xy 48.26 33.02)
+			(xy 33.02 31.75) (xy 41.91 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2644,7 +2644,7 @@
 		(uuid "d0b65b5d-706b-4406-8330-15f3d43aa964")
 	)
 	(label "USB_D-"
-		(at 48.26 30.48 180)
+		(at 41.91 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2653,8 +2653,8 @@
 		)
 		(uuid "26e6dc8d-4cf3-486f-a744-05948dc071ef")
 	)
-	(label "EN_PWR_5V"
-		(at 58.42 85.09 180)
+	(label "EN_PWR_3V3"
+		(at 92.71 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2664,7 +2664,7 @@
 		(uuid "3f781e9e-bcd7-4954-b79e-a84d30a6ebd4")
 	)
 	(label "USB_D+"
-		(at 48.26 33.02 180)
+		(at 41.91 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2674,7 +2674,7 @@
 		(uuid "8f944f09-fec4-4389-85da-a07c02f78c7f")
 	)
 	(label "EN_PWR_12V"
-		(at 58.42 62.23 180)
+		(at 92.71 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2685,7 +2685,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 52.07 57.15 0)
+		(at 86.36 24.13 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2696,7 +2696,7 @@
 		(dnp no)
 		(uuid "15eb16da-724e-4c8e-ae14-1874b05dc45e")
 		(property "Reference" "#PWR06"
-			(at 52.07 60.96 0)
+			(at 86.36 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2707,7 +2707,7 @@
 			)
 		)
 		(property "Value" "VBUSF"
-			(at 52.07 53.34 0)
+			(at 86.36 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2717,7 +2717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 57.15 0)
+			(at 86.36 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2728,7 +2728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 57.15 0)
+			(at 86.36 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2739,7 +2739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 52.07 57.15 0)
+			(at 86.36 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2859,7 +2859,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 19.05 62.23 180)
+		(at 53.34 29.21 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2870,7 +2870,7 @@
 		(fields_autoplaced yes)
 		(uuid "51a64979-0bf5-44e8-befe-976ea9e3b1cd")
 		(property "Reference" "#PWR0108"
-			(at 19.05 58.42 0)
+			(at 53.34 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2881,7 +2881,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 19.05 67.31 0)
+			(at 53.34 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2891,7 +2891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 62.23 0)
+			(at 53.34 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2902,7 +2902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 62.23 0)
+			(at 53.34 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2913,7 +2913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 19.05 62.23 0)
+			(at 53.34 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2937,7 +2937,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 48.26 25.4 0)
+		(at 41.91 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2947,7 +2947,7 @@
 		(dnp no)
 		(uuid "77a1400d-9a10-4c1b-82a9-fe5b5c42576b")
 		(property "Reference" "#PWR0112"
-			(at 48.26 29.21 0)
+			(at 41.91 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2958,7 +2958,7 @@
 			)
 		)
 		(property "Value" "VBUSF"
-			(at 48.26 21.59 0)
+			(at 41.91 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2968,7 +2968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 25.4 0)
+			(at 41.91 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2979,7 +2979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 25.4 0)
+			(at 41.91 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2990,7 +2990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 48.26 25.4 0)
+			(at 41.91 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3106,87 +3106,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 19.05 80.01 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8666ac81-ba71-4503-bb44-d0e5e6a9ecc1")
-		(property "Reference" "#PWR0110"
-			(at 19.05 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 19.05 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 19.05 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29dd0fc9-792e-4d37-9a33-ecf603c124c6")
-		)
-		(instances
-			(project "carrier-wave"
-				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
-		(at 52.07 80.01 0)
+		(at 86.36 46.99 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3197,7 +3118,7 @@
 		(dnp no)
 		(uuid "8f029690-0cee-4f35-9617-c11445740f67")
 		(property "Reference" "#PWR0109"
-			(at 52.07 83.82 0)
+			(at 86.36 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3208,7 +3129,7 @@
 			)
 		)
 		(property "Value" "VBUSF"
-			(at 52.07 76.2 0)
+			(at 86.36 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3218,7 +3139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 80.01 0)
+			(at 86.36 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3229,7 +3150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 80.01 0)
+			(at 86.36 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3240,7 +3161,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 52.07 80.01 0)
+			(at 86.36 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3263,8 +3184,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-5V")
-		(at 19.05 85.09 180)
+		(lib_id "power:-3V3")
+		(at 53.34 52.07 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3273,9 +3195,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a8fcf4ac-cffa-4c2a-b185-8f33feddb12b")
-		(property "Reference" "#PWR0111"
-			(at 19.05 81.28 0)
+		(uuid "a94c7345-6074-48fd-b0ae-9a14a0e65e7d")
+		(property "Reference" "#PWR0102"
+			(at 53.34 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,8 +3207,8 @@
 				)
 			)
 		)
-		(property "Value" "-5V"
-			(at 19.05 90.17 0)
+		(property "Value" "-3V3"
+			(at 53.34 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3296,7 +3218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 85.09 0)
+			(at 53.34 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3307,7 +3229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 85.09 0)
+			(at 53.34 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3317,8 +3239,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 19.05 85.09 0)
+		(property "Description" "Power symbol creates a global label with name \"-3V3\""
+			(at 53.34 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3329,12 +3251,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "62af17f1-2739-457c-99cc-27f36ed10081")
+			(uuid "b4ab9cd6-b997-43ae-82ed-d1f406418acd")
 		)
 		(instances
 			(project "carrier-wave"
 				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e"
-					(reference "#PWR0111")
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 53.34 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4b05412-a9d9-4d29-9625-385e7c0420cd")
+		(property "Reference" "#PWR0101"
+			(at 53.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 53.34 42.545 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 53.34 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc52e115-125c-4ab4-80db-de8ede5977e1")
+		)
+		(instances
+			(project "carrier-wave"
+				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3478,7 +3478,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 19.05 57.15 0)
+		(at 53.34 24.13 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3490,7 +3490,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0d13f86-7036-4192-9d66-99e71e1a8991")
 		(property "Reference" "#PWR0107"
-			(at 19.05 60.96 0)
+			(at 53.34 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3501,7 +3501,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 19.05 52.07 0)
+			(at 53.34 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3511,7 +3511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 57.15 0)
+			(at 53.34 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3522,7 +3522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 57.15 0)
+			(at 53.34 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3533,7 +3533,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 19.05 57.15 0)
+			(at 53.34 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3757,7 +3757,7 @@
 		(members "33f1f10b-00d6-4d59-a863-3344d36d6274" "f541d803-05d3-4867-b55c-330a4173aa55")
 	)
 	(sheet
-		(at 24.13 53.34)
+		(at 58.42 20.32)
 		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3772,7 +3772,7 @@
 		)
 		(uuid "3906e33f-01c0-4b3b-b4a0-f1028fb4a0a8")
 		(property "Sheetname" "±12V Rail Supply"
-			(at 34.29 52.07 0)
+			(at 68.58 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3783,7 +3783,7 @@
 			)
 		)
 		(property "Sheetfile" "12V_boost_converter.kicad_sch"
-			(at 24.13 66.6246 0)
+			(at 58.42 33.6046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3795,7 +3795,7 @@
 			)
 		)
 		(property "Component" "TPS65131RGE / LM2940 & LM2990"
-			(at 41.91 52.07 0)
+			(at 76.2 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3806,7 +3806,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 44.45 57.15 0)
+			(at 78.74 24.13 0)
 			(uuid "f962f1f3-c532-4511-ad4f-1266113ca5c0")
 			(effects
 				(font
@@ -3816,7 +3816,7 @@
 			)
 		)
 		(pin "VNEG" output
-			(at 24.13 62.23 180)
+			(at 58.42 29.21 180)
 			(uuid "adc68c14-515d-4465-ae73-1688cca18b55")
 			(effects
 				(font
@@ -3826,7 +3826,7 @@
 			)
 		)
 		(pin "VPOS" output
-			(at 24.13 57.15 180)
+			(at 58.42 24.13 180)
 			(uuid "c081e970-0f3d-471e-9d3a-99ea8394d749")
 			(effects
 				(font
@@ -3836,7 +3836,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 44.45 62.23 0)
+			(at 78.74 29.21 0)
 			(uuid "2bb217c5-7695-4e31-8180-a1b5f436a662")
 			(effects
 				(font
@@ -3854,7 +3854,7 @@
 		)
 	)
 	(sheet
-		(at 24.13 76.2)
+		(at 58.42 43.18)
 		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3868,8 +3868,8 @@
 			(color 255 229 191 1)
 		)
 		(uuid "77b69eb8-e4cd-4b8d-b780-853d4e199da3")
-		(property "Sheetname" "±5V Rail Supply"
-			(at 34.29 74.93 0)
+		(property "Sheetname" "±3.3V Rail Supply"
+			(at 68.58 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3880,7 +3880,7 @@
 			)
 		)
 		(property "Sheetfile" "charge_pump_ldo.kicad_sch"
-			(at 24.13 89.4846 0)
+			(at 58.42 56.4646 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3892,7 +3892,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 44.45 85.09 0)
+			(at 78.74 52.07 0)
 			(uuid "1f3443ea-62c2-4d18-ba19-ad6db64c5a93")
 			(effects
 				(font
@@ -3902,7 +3902,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 44.45 80.01 0)
+			(at 78.74 46.99 0)
 			(uuid "d5609bd7-5bc8-46fd-89dc-f9ad103c4b4f")
 			(effects
 				(font
@@ -3912,7 +3912,7 @@
 			)
 		)
 		(pin "VNEG" output
-			(at 24.13 85.09 180)
+			(at 58.42 52.07 180)
 			(uuid "172867cf-e9b6-4c62-b31b-6e525d27535e")
 			(effects
 				(font
@@ -3922,7 +3922,7 @@
 			)
 		)
 		(pin "VPOS" output
-			(at 24.13 80.01 180)
+			(at 58.42 46.99 180)
 			(uuid "17d59c72-11d0-4003-8ac4-3e549aa49b9e")
 			(effects
 				(font
@@ -3940,7 +3940,7 @@
 		)
 	)
 	(sheet
-		(at 24.13 21.59)
+		(at 17.78 20.32)
 		(size 15.24 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3955,7 +3955,7 @@
 		)
 		(uuid "c8ec5524-467d-47df-8ba8-a845ef3751ec")
 		(property "Sheetname" "USB C Interface"
-			(at 24.13 20.32 0)
+			(at 17.78 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3966,7 +3966,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_interface.kicad_sch"
-			(at 24.13 34.9508 0)
+			(at 17.78 33.6808 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3978,7 +3978,7 @@
 			)
 		)
 		(pin "CC1" bidirectional
-			(at 39.37 38.1 0)
+			(at 33.02 36.83 0)
 			(uuid "836d976f-7f2d-4129-9282-9aed5b523c2b")
 			(effects
 				(font
@@ -3988,7 +3988,7 @@
 			)
 		)
 		(pin "CC2" bidirectional
-			(at 39.37 40.64 0)
+			(at 33.02 39.37 0)
 			(uuid "af6ab509-5a6b-4e52-87d8-5c4ad57dcf98")
 			(effects
 				(font
@@ -3998,7 +3998,7 @@
 			)
 		)
 		(pin "D+" bidirectional
-			(at 39.37 33.02 0)
+			(at 33.02 31.75 0)
 			(uuid "654ded37-7f50-4cd4-9238-700525cf35f6")
 			(effects
 				(font
@@ -4008,7 +4008,7 @@
 			)
 		)
 		(pin "D-" bidirectional
-			(at 39.37 30.48 0)
+			(at 33.02 29.21 0)
 			(uuid "01ef542a-7ad6-4a7e-9fa3-1dbd19e5fcd8")
 			(effects
 				(font
@@ -4018,7 +4018,7 @@
 			)
 		)
 		(pin "VBUSF" output
-			(at 39.37 25.4 0)
+			(at 33.02 24.13 0)
 			(uuid "e54bd1e5-5773-44e4-ad43-ac2fe1a378d0")
 			(effects
 				(font
