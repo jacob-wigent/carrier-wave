@@ -6622,7 +6622,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "10uF"
 			(at 57.15 93.345 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7280,7 +7280,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "10uF"
 			(at 77.47 69.215 0)
 			(show_name no)
 			(do_not_autoplace no)
