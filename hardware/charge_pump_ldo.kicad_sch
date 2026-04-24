@@ -3422,7 +3422,7 @@
 		)
 		(uuid "934ed82e-9231-4235-a62d-decad5686b1d")
 	)
-	(hierarchical_label "PG"
+	(hierarchical_label "~{PG}"
 		(shape input)
 		(at 120.65 90.17 180)
 		(effects
