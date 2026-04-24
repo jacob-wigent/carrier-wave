@@ -497,7 +497,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "carrier-wave"
+    ]
   },
   "meta": {
     "filename": "carrier-wave.kicad_pro",
@@ -672,7 +674,7 @@
         "uuid": "dc900721-a2e3-4f11-b4f2-59bb3a47422e"
       }
     ],
-    "used_designators": "U601",
+    "used_designators": "U401,U601,R405-406,R601,#PWR103-105,#PWR217-219,#PWR305-308,#PWR407,#PWR410-415,#PWR601-607,C101,C402,C404,C601-603",
     "variants": []
   },
   "sheets": [
@@ -691,10 +693,6 @@
     [
       "c8ec5524-467d-47df-8ba8-a845ef3751ec",
       "USB C Interface"
-    ],
-    [
-      "cff597bb-36f0-48e7-add8-61429dcc6843",
-      "Microcontroller"
     ],
     [
       "59c83465-6184-4880-a73c-6ec239d4f637",
