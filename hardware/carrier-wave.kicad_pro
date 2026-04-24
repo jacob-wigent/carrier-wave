@@ -674,7 +674,7 @@
         "uuid": "dc900721-a2e3-4f11-b4f2-59bb3a47422e"
       }
     ],
-    "used_designators": "U401,U601,R405-406,R601,#PWR103-105,#PWR217-219,#PWR305-308,#PWR407,#PWR410-415,#PWR601-607,C101,C402,C404,C601-603",
+    "used_designators": "U101,U501,D501,#PWR501-508,C501-508,FB501,SW501,R501",
     "variants": []
   },
   "sheets": [
@@ -693,6 +693,10 @@
     [
       "c8ec5524-467d-47df-8ba8-a845ef3751ec",
       "USB C Interface"
+    ],
+    [
+      "ce2ab052-e0a3-4aff-b808-e261b8e26647",
+      "Microcontroller"
     ],
     [
       "59c83465-6184-4880-a73c-6ec239d4f637",

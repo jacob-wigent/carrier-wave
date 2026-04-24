@@ -1879,16 +1879,16 @@
 		(uuid "680460b1-9716-4c94-9292-a80a23c74612")
 	)
 	(no_connect
-		(at 45.72 45.72)
+		(at 80.645 51.435)
 		(uuid "1bed27a0-5cae-4837-ac95-2be8b17c13fb")
 	)
 	(no_connect
-		(at 45.72 43.18)
+		(at 80.645 48.895)
 		(uuid "7c0f4d11-a8da-4a78-8939-18c67203bce5")
 	)
 	(wire
 		(pts
-			(xy 92.71 29.21) (xy 78.74 29.21)
+			(xy 189.23 34.925) (xy 175.26 34.925)
 		)
 		(stroke
 			(width 0)
@@ -1898,7 +1898,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 34.29) (xy 92.71 34.29)
+			(xy 175.26 40.005) (xy 189.23 40.005)
 		)
 		(stroke
 			(width 0)
@@ -1908,7 +1908,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 35.56) (xy 57.15 35.56)
+			(xy 80.645 41.275) (xy 93.345 41.275)
 		)
 		(stroke
 			(width 0)
@@ -1918,7 +1918,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 58.42) (xy 92.71 58.42)
+			(xy 175.26 64.135) (xy 189.23 64.135)
 		)
 		(stroke
 			(width 0)
@@ -1928,7 +1928,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 27.94) (xy 63.5 27.94)
+			(xy 80.645 33.655) (xy 99.695 33.655)
 		)
 		(stroke
 			(width 0)
@@ -1938,7 +1938,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 38.1) (xy 57.15 38.1)
+			(xy 80.645 43.815) (xy 93.345 43.815)
 		)
 		(stroke
 			(width 0)
@@ -1948,7 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 30.48) (xy 63.5 30.48)
+			(xy 80.645 36.195) (xy 99.695 36.195)
 		)
 		(stroke
 			(width 0)
@@ -1957,7 +1957,7 @@
 		(uuid "d786c33c-ab8f-4421-a5fd-fcb198919ff9")
 	)
 	(label "USB_PWR_~{EN}"
-		(at 63.5 27.94 180)
+		(at 98.425 33.655 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1967,7 +1967,7 @@
 		(uuid "08dc831d-0a18-4a54-8e6e-5b9cfd367471")
 	)
 	(label "USB_D+"
-		(at 57.15 38.1 180)
+		(at 92.075 43.815 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1977,7 +1977,7 @@
 		(uuid "176a3baa-e088-4496-82f8-70768790cb1f")
 	)
 	(label "PWR_3.3V_EN"
-		(at 78.74 29.21 0)
+		(at 175.26 34.925 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1987,7 +1987,7 @@
 		(uuid "3f781e9e-bcd7-4954-b79e-a84d30a6ebd4")
 	)
 	(label "PWR_3.3V_PG"
-		(at 78.74 34.29 0)
+		(at 175.26 40.005 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1997,7 +1997,7 @@
 		(uuid "7517f256-2835-4ecb-a1ea-b4af775692c4")
 	)
 	(label "USB_D-"
-		(at 57.15 35.56 180)
+		(at 92.075 41.275 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2007,7 +2007,7 @@
 		(uuid "a9599311-5803-4e28-b02a-045ab34b907d")
 	)
 	(label "USB_PWR_~{FAULT}"
-		(at 63.5 30.48 180)
+		(at 98.425 36.195 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2017,7 +2017,7 @@
 		(uuid "bb5d5536-2984-4694-88ec-85aa65b3f5b1")
 	)
 	(label "PWR_12V_EN"
-		(at 78.74 58.42 0)
+		(at 175.26 64.135 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2553,7 +2553,7 @@
 		(members "33f1f10b-00d6-4d59-a863-3344d36d6274" "f541d803-05d3-4867-b55c-330a4173aa55")
 	)
 	(sheet
-		(at 92.71 52.07)
+		(at 189.23 57.785)
 		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2568,7 +2568,7 @@
 		)
 		(uuid "3906e33f-01c0-4b3b-b4a0-f1028fb4a0a8")
 		(property "Sheetname" "±12V Rail Supply"
-			(at 92.71 67.31 0)
+			(at 189.23 73.025 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2579,7 +2579,7 @@
 			)
 		)
 		(property "Sheetfile" "12V_boost_converter.kicad_sch"
-			(at 92.71 65.3546 0)
+			(at 189.23 71.0696 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2591,7 +2591,7 @@
 			)
 		)
 		(property "Component" "TPS65131RGE / LM2940 & LM2990"
-			(at 110.49 50.8 0)
+			(at 207.01 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2602,7 +2602,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 92.71 58.42 180)
+			(at 189.23 64.135 180)
 			(uuid "2bb217c5-7695-4e31-8180-a1b5f436a662")
 			(effects
 				(font
@@ -2620,7 +2620,7 @@
 		)
 	)
 	(sheet
-		(at 92.71 77.47)
+		(at 189.23 83.185)
 		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2635,7 +2635,7 @@
 		)
 		(uuid "59c83465-6184-4880-a73c-6ec239d4f637")
 		(property "Sheetname" "3.3V Digital Supply"
-			(at 92.71 92.71 0)
+			(at 189.23 98.425 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2646,7 +2646,7 @@
 			)
 		)
 		(property "Sheetfile" "3V_digital_supply.kicad_sch"
-			(at 92.71 90.8308 0)
+			(at 189.23 96.5458 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2666,7 +2666,7 @@
 		)
 	)
 	(sheet
-		(at 92.71 25.4)
+		(at 189.23 31.115)
 		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2681,7 +2681,7 @@
 		)
 		(uuid "77b69eb8-e4cd-4b8d-b780-853d4e199da3")
 		(property "Sheetname" "±3.3V Rail Supply"
-			(at 92.71 40.64 0)
+			(at 189.23 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2692,7 +2692,7 @@
 			)
 		)
 		(property "Sheetfile" "charge_pump_ldo.kicad_sch"
-			(at 92.71 38.6846 0)
+			(at 189.23 44.3996 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2704,7 +2704,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 92.71 29.21 180)
+			(at 189.23 34.925 180)
 			(uuid "1f3443ea-62c2-4d18-ba19-ad6db64c5a93")
 			(effects
 				(font
@@ -2714,7 +2714,7 @@
 			)
 		)
 		(pin "PG" input
-			(at 92.71 34.29 180)
+			(at 189.23 40.005 180)
 			(uuid "222c2ff2-f207-4d37-a788-1a2f50a12186")
 			(effects
 				(font
@@ -2732,7 +2732,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 25.4)
+		(at 60.325 31.115)
 		(size 20.32 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2747,7 +2747,7 @@
 		)
 		(uuid "c8ec5524-467d-47df-8ba8-a845ef3751ec")
 		(property "Sheetname" "USB C Interface"
-			(at 25.4 50.8 0)
+			(at 60.325 56.515 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2758,7 +2758,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_interface.kicad_sch"
-			(at 25.4 38.7608 0)
+			(at 60.325 44.4758 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2770,7 +2770,7 @@
 			)
 		)
 		(pin "CC1" output
-			(at 45.72 43.18 0)
+			(at 80.645 48.895 0)
 			(uuid "4b5e2620-7c9b-4429-8e38-78b176538573")
 			(effects
 				(font
@@ -2780,7 +2780,7 @@
 			)
 		)
 		(pin "CC2" output
-			(at 45.72 45.72 0)
+			(at 80.645 51.435 0)
 			(uuid "c4acd893-9692-473e-b32d-a8d58f22e25b")
 			(effects
 				(font
@@ -2790,7 +2790,7 @@
 			)
 		)
 		(pin "D+" bidirectional
-			(at 45.72 38.1 0)
+			(at 80.645 43.815 0)
 			(uuid "bab017ff-ad7a-4154-b920-2d77bafbc099")
 			(effects
 				(font
@@ -2800,7 +2800,7 @@
 			)
 		)
 		(pin "D-" bidirectional
-			(at 45.72 35.56 0)
+			(at 80.645 41.275 0)
 			(uuid "a763efe4-67a4-4b24-868c-edfacc0923ad")
 			(effects
 				(font
@@ -2810,7 +2810,7 @@
 			)
 		)
 		(pin "~{EN}" input
-			(at 45.72 27.94 0)
+			(at 80.645 33.655 0)
 			(uuid "e178efc7-0346-48f3-b4d3-7ae114a31167")
 			(effects
 				(font
@@ -2820,7 +2820,7 @@
 			)
 		)
 		(pin "~{FAULT}" output
-			(at 45.72 30.48 0)
+			(at 80.645 36.195 0)
 			(uuid "dd22752b-1764-4b9c-b694-54d37ba396a2")
 			(effects
 				(font
@@ -2833,6 +2833,53 @@
 			(project "carrier-wave"
 				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 31.115)
+		(size 43.815 86.36)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "ce2ab052-e0a3-4aff-b808-e261b8e26647")
+		(property "Sheetname" "Microcontroller"
+			(at 114.3 30.3272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 114.3 118.1358 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carrier-wave"
+				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e"
+					(page "5")
 				)
 			)
 		)
