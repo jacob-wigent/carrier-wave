@@ -1,6 +1,17 @@
-# Carrier-Wave
+![Carrier-Wave](./assets/title-logo-dark.png#gh-dark-mode-only)
+![Carrier-Wave](./assets/title-logo-light.png#gh-light-mode-only)
+
+---
 
 A portable, USB-C powered function generator currently under development. This project aims to combine DDS-based waveform generation with low-noise analog design in a compact and affordable form factor.
+
+### Navigate
+
+| |  |  |
+|-----------|---------|---------|
+| **[Hardware](./hardware/README.md)** | Circuit design and PCB layout | KiCad design files, simulations |
+| **[Firmware](./firmware/README.md)** | Microcontroller implementation | STM32 code, CubeMX configuration |
+| **[Software](./software/README.md)** | Desktop control interface | JavaFX GUI application code |
 
 ## Target Capabilities
 

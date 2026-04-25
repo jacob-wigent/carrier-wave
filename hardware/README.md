@@ -8,8 +8,9 @@ Hardware design for the Carrier-Wave function generator.
 
 The Carrier-Wave hardware combines DDS-based digital waveform generation with a precision analog stage and low-noise power system.
 
-**MCU:** STM32G0 or STM32G4  
+**MCU:** STM32G4  
 - Controls DDS over SPI
+- Generates VGA and offset voltages using DACs
 - Handles user interface and system logic
 
 **DDS:** AD9834 *(potential overclocking to ~100 MHz MCLK)*[†](#footnotes)
@@ -65,7 +66,7 @@ The Carrier-Wave hardware combines DDS-based digital waveform generation with a 
 
 ## User Interface
 
-- OLED or TFT display
+- OLED display
 - Rotary encoder for input  
 - USB-C connector 
 - BNC connector
