@@ -16,6 +16,9 @@ The Carrier-Wave hardware combines DDS-based digital waveform generation with a 
 - Generates base waveform (sine, triangle, square)  
 - Output filtered and amplified by analog stage
 
+## Preliminary Layout
+![Layout](./layout.png)
+
 ## Power System
 
 - **Dual-rail Boost Converter (TPS65131)**  
