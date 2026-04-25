@@ -674,7 +674,7 @@
         "uuid": "dc900721-a2e3-4f11-b4f2-59bb3a47422e"
       }
     ],
-    "used_designators": "U502,#PWR509-512,C509,SW502,R502",
+    "used_designators": "J501-502,U701-704",
     "variants": []
   },
   "sheets": [
@@ -701,6 +701,14 @@
     [
       "59c83465-6184-4880-a73c-6ec239d4f637",
       "3.3V Digital Supply"
+    ],
+    [
+      "5675522c-b478-4fae-bc1e-6c223e44ab27",
+      "Analog Stage"
+    ],
+    [
+      "fd15caeb-3d3d-42fb-a846-273f1261c6f6",
+      "User Interface"
     ]
   ],
   "text_variables": {},

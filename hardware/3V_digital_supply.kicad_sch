@@ -931,6 +931,57 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 12.7 17.145)
+		(end 53.975 29.21)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "57f572a5-9cea-4fdb-a0f0-3be077a92097")
+	)
+	(text "Description"
+		(exclude_from_sim no)
+		(at 12.7 15.24 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "11c401cb-19e4-45bd-8847-a60274825f8f")
+	)
+	(text "AP2210K-3.3"
+		(exclude_from_sim no)
+		(at 12.7 170.18 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+			(href "https://www.diodes.com/assets/Datasheets/AP2210.pdf")
+		)
+		(uuid "4d216fc0-4641-416a-bc77-00325d0231af")
+	)
+	(text "5V USB input is regulated to 3.3V \nfor digital components using LDO.\n\nInput and output capacitors\nfollow datasheet recomendations."
+		(exclude_from_sim no)
+		(at 13.335 23.495 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "83084594-e471-494e-b7a7-621c0545b372")
+	)
 	(text "Dropout @ 100mA: 300mV\nDropout @ 300mA: 500mV"
 		(exclude_from_sim no)
 		(at 382.27 69.85 0)
@@ -1058,6 +1109,692 @@
 			(type default)
 		)
 		(uuid "ede9607a-d7af-4d4d-b7ba-6da67b755143")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 19.05 19.05)
+		(row_heights 2.54 2.54 2.54 2.54 5.08 3.175)
+		(uuid "0257e69d-a5cf-4f45-ad6c-c8585f5b72dd")
+		(cells
+			(table_cell "Input Voltage"
+				(exclude_from_sim no)
+				(at 12.7 29.845 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "050792c2-67d3-4d06-8e7a-f42801804026")
+			)
+			(table_cell "5V"
+				(exclude_from_sim no)
+				(at 31.75 29.845 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "43b9dc64-180f-4876-8e4d-491f1056b874")
+			)
+			(table_cell "Output Voltage"
+				(exclude_from_sim no)
+				(at 12.7 32.385 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "d2cb823c-5968-40bb-b68a-8ab9c4aeb7f1")
+			)
+			(table_cell "3.3V"
+				(exclude_from_sim no)
+				(at 31.75 32.385 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "7da57c6f-9129-411e-8532-80658817eb3e")
+			)
+			(table_cell "Max Current"
+				(exclude_from_sim no)
+				(at 12.7 34.925 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "1772b711-f7af-45c3-91c1-205eeec3102c")
+			)
+			(table_cell "300mA"
+				(exclude_from_sim no)
+				(at 31.75 34.925 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "155aba55-e572-4671-85ef-5d5768496667")
+			)
+			(table_cell "Dropout"
+				(exclude_from_sim no)
+				(at 12.7 37.465 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "d2ab95e3-f38f-4dd0-a232-2bb67232a41f")
+			)
+			(table_cell "250mV @ 300mA"
+				(exclude_from_sim no)
+				(at 31.75 37.465 0)
+				(size 19.05 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.1588)
+					)
+					(justify left top)
+				)
+				(uuid "5f54c9a9-ffcc-4e9d-89ee-d3dff825ce35")
+			)
+			(table_cell "PSRR"
+				(exclude_from_sim no)
+				(at 12.7 40.005 0)
+				(size 19.05 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "733a308a-5ae8-4181-a26b-017e3e0f684c")
+			)
+			(table_cell "~30dB @ 10kHz-1MHz"
+				(exclude_from_sim no)
+				(at 31.75 40.005 0)
+				(size 19.05 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b79cb9b9-7120-49bf-95fb-e9ad79d0e460")
+			)
+			(table_cell "Output Noise"
+				(exclude_from_sim no)
+				(at 12.7 45.085 0)
+				(size 19.05 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "59946d8d-dbd5-4f39-9b41-6c2263332e97")
+			)
+			(table_cell "260nV/sqrt(Hz)"
+				(exclude_from_sim no)
+				(at 31.75 45.085 0)
+				(size 19.05 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.1588)
+					)
+					(justify left top)
+				)
+				(uuid "e1f2056a-cf22-4eda-9a3a-ec138ee61378")
+			)
+		)
+	)
+	(table
+		(column_count 4)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 24.13 21.59 26.67 73.66)
+		(row_heights 2.54 5.08 6.35 6.35 6.35 5.08)
+		(uuid "e126ff85-1739-4cdf-b150-68ec45b14d57")
+		(cells
+			(table_cell "NAME"
+				(exclude_from_sim no)
+				(at 12.7 171.45 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "cd0b0dfa-7e88-474d-b4e6-fae79d9c32e6")
+			)
+			(table_cell "PIN"
+				(exclude_from_sim no)
+				(at 36.83 171.45 0)
+				(size 21.59 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "8cca5297-bba7-4c05-8cf3-c8b1a50d3b5d")
+			)
+			(table_cell "I/O"
+				(exclude_from_sim no)
+				(at 58.42 171.45 0)
+				(size 26.67 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "b9b9f837-1506-401b-bc4c-50bfb7add2c2")
+			)
+			(table_cell "DESCRIPTION"
+				(exclude_from_sim no)
+				(at 85.09 171.45 0)
+				(size 73.66 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "1c0ee612-86d3-46d0-932a-c6b2ed3f37cb")
+			)
+			(table_cell "GND"
+				(exclude_from_sim no)
+				(at 12.7 173.99 0)
+				(size 24.13 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "990feac1-ce53-42b6-b990-091a522ca221")
+			)
+			(table_cell "2"
+				(exclude_from_sim no)
+				(at 36.83 173.99 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fa710207-f4aa-4f91-a906-8fa5f162b3ac")
+			)
+			(table_cell "-"
+				(exclude_from_sim no)
+				(at 58.42 173.99 0)
+				(size 26.67 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bf08d043-a312-4c5d-8a08-907406c5e387")
+			)
+			(table_cell "Ground"
+				(exclude_from_sim no)
+				(at 85.09 173.99 0)
+				(size 73.66 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fe118d09-ed5f-439c-b01a-ecc5a1c75b82")
+			)
+			(table_cell "VOUT"
+				(exclude_from_sim no)
+				(at 12.7 179.07 0)
+				(size 24.13 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d0b3d60b-a880-4051-a02f-7e3fa21e08b2")
+			)
+			(table_cell "5"
+				(exclude_from_sim no)
+				(at 36.83 179.07 0)
+				(size 21.59 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "45ecfb09-0c78-49ca-9df8-89030f4bec17")
+			)
+			(table_cell "O"
+				(exclude_from_sim no)
+				(at 58.42 179.07 0)
+				(size 26.67 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "097675d4-25ab-48ac-a009-150e03badf1e")
+			)
+			(table_cell "Regulated output voltage"
+				(exclude_from_sim no)
+				(at 85.09 179.07 0)
+				(size 73.66 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1c37a2b4-8824-4e66-846a-740b22e6af73")
+			)
+			(table_cell "VIN"
+				(exclude_from_sim no)
+				(at 12.7 185.42 0)
+				(size 24.13 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "349aee6e-3065-4af9-9986-e5497ec0b7ef")
+			)
+			(table_cell "1\n"
+				(exclude_from_sim no)
+				(at 36.83 185.42 0)
+				(size 21.59 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "cee3d09d-8636-4a75-9a3d-fedc14a04a74")
+			)
+			(table_cell "I"
+				(exclude_from_sim no)
+				(at 58.42 185.42 0)
+				(size 26.67 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f78ca1db-a901-4b1a-9828-23694723728f")
+			)
+			(table_cell "Input voltage <15V"
+				(exclude_from_sim no)
+				(at 85.09 185.42 0)
+				(size 73.66 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7eb61805-cf33-4e6d-837e-d0b475512796")
+			)
+			(table_cell "EN"
+				(exclude_from_sim no)
+				(at 12.7 191.77 0)
+				(size 24.13 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ef2ba844-7c90-4289-80fb-4d9237f7c60a")
+			)
+			(table_cell "3"
+				(exclude_from_sim no)
+				(at 36.83 191.77 0)
+				(size 21.59 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f534c345-9caa-4b7b-ae73-8d397765aec3")
+			)
+			(table_cell "I"
+				(exclude_from_sim no)
+				(at 58.42 191.77 0)
+				(size 26.67 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "179c24fd-3052-411b-a71a-3eff74631d00")
+			)
+			(table_cell "Enable input: CMOS or TTL compatible input. Logic high=enable, logic low=shutdown"
+				(exclude_from_sim no)
+				(at 85.09 191.77 0)
+				(size 73.66 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7754e631-1947-49d5-9b8c-96482f81b9ca")
+			)
+			(table_cell "BYP"
+				(exclude_from_sim no)
+				(at 12.7 198.12 0)
+				(size 24.13 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6c2d9c53-8c48-4253-a952-366541964514")
+			)
+			(table_cell "4"
+				(exclude_from_sim no)
+				(at 36.83 198.12 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "01910f55-501d-43f8-8953-0139a3090264")
+			)
+			(table_cell "-"
+				(exclude_from_sim no)
+				(at 58.42 198.12 0)
+				(size 26.67 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "67667968-c449-4654-b56d-83d388886f43")
+			)
+			(table_cell "Bypass capacitor for low noise operation/Adjustable Output"
+				(exclude_from_sim no)
+				(at 85.09 198.12 0)
+				(size 73.66 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1813c759-cee7-4ae7-8bc9-95fe2ff40399")
+			)
+		)
 	)
 	(symbol
 		(lib_id "carrier-wave:AP2210K-3.3TRG1")

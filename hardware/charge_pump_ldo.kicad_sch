@@ -3146,7 +3146,7 @@
 			)
 		)
 		(column_widths 19.05 17.78)
-		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 5.08)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 5.08)
 		(uuid "8e446b1b-7b46-430d-b4b8-e441b0f123ba")
 		(cells
 			(table_cell "Input Voltage"
@@ -3185,45 +3185,9 @@
 				)
 				(uuid "43b9dc64-180f-4876-8e4d-491f1056b874")
 			)
-			(table_cell "Boost Voltage"
-				(exclude_from_sim no)
-				(at 12.7 35.56 0)
-				(size 19.05 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.254)
-						(bold yes)
-					)
-					(justify left top)
-				)
-				(uuid "9ef56aad-de54-4ce4-888d-afea998be5ec")
-			)
-			(table_cell "±13V"
-				(exclude_from_sim no)
-				(at 31.75 35.56 0)
-				(size 17.78 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "99cfca9c-828a-44a3-bf8a-3aad08ee029c")
-			)
 			(table_cell "Output Voltage"
 				(exclude_from_sim no)
-				(at 12.7 38.1 0)
+				(at 12.7 35.56 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3242,7 +3206,7 @@
 			)
 			(table_cell "±3.29V"
 				(exclude_from_sim no)
-				(at 31.75 38.1 0)
+				(at 31.75 35.56 0)
 				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3261,7 +3225,7 @@
 			)
 			(table_cell "Max Current"
 				(exclude_from_sim no)
-				(at 12.7 40.64 0)
+				(at 12.7 38.1 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3280,7 +3244,7 @@
 			)
 			(table_cell "250mA"
 				(exclude_from_sim no)
-				(at 31.75 40.64 0)
+				(at 31.75 38.1 0)
 				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3299,7 +3263,7 @@
 			)
 			(table_cell "Frequency"
 				(exclude_from_sim no)
-				(at 12.7 43.18 0)
+				(at 12.7 40.64 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3318,7 +3282,7 @@
 			)
 			(table_cell "2MHz (typ)"
 				(exclude_from_sim no)
-				(at 31.75 43.18 0)
+				(at 31.75 40.64 0)
 				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3336,7 +3300,7 @@
 			)
 			(table_cell "Output Ripple"
 				(exclude_from_sim no)
-				(at 12.7 45.72 0)
+				(at 12.7 43.18 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3355,7 +3319,7 @@
 			)
 			(table_cell "0.5-3mV"
 				(exclude_from_sim no)
-				(at 31.75 45.72 0)
+				(at 31.75 43.18 0)
 				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3372,7 +3336,7 @@
 			)
 			(table_cell "Output Noise"
 				(exclude_from_sim no)
-				(at 12.7 48.26 0)
+				(at 12.7 45.72 0)
 				(size 19.05 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3391,7 +3355,7 @@
 			)
 			(table_cell "22uVrms (10Hz-100Khz)"
 				(exclude_from_sim no)
-				(at 31.75 48.26 0)
+				(at 31.75 45.72 0)
 				(size 17.78 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
