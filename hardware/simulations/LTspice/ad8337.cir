@@ -1,0 +1,65 @@
+* AD8337 SPICE Macro-model
+*
+* Revision History:
+* 09/2019,  Rev. D GPK
+* 10/2015, Rev. C
+* 10/11, Rev. A,PRB IAP ADI
+*
+* Not Modeled:
+*   Temperature effects
+*   Slew Rate
+*   PSRR
+*   Pulse Response variation with cap load
+*
+* Node assignments
+*              output
+*              |    common
+*              |    |    non-inverting input
+*              |    |    |    inverting input
+*              |    |    |    |    Pre-amp output
+*              |    |    |    |    |    negative supply
+*              |    |    |    |    |    |    gain control input
+*              |    |    |    |    |    |    |    positive supply
+*              |    |    |    |    |    |    |    |
+*$
+.SUBCKT AD8337 VOUT VCOM INPP INPN PRAO VNEG GAIN VPOS
+E1 N004 VCOM N005 VCOM 1
+GB1 VCOM N003 VALUE = { LIMIT( -I(E1), 1173.75e-6, -1173.75e-6) }
+E2 PRAO VCOM N003 VCOM 1
+R1 GAIN 0 70e6
+GB2 VPOS VNEG VALUE ={(23.5e-3+(2e-3*((v(VPOS)-v(VNEG)-5)/5)))}
+EB3 OUTSR1 VCOM VALUE ={(v(PRAO,VCOM)*(10**((2.738*(v(iG))**6 - 28.087*(v(iG))**5 - 2.8087*(v(iG))**4
++ + 9.8866*(v(iG))**3 + 0.5049*(v(iG))**2 + 19.099*v(iG) + 6.1862)/20)))}
+I1 GAIN 0 0.3e-6
+R6 N003 VCOM 1e9
+C3 N003 VCOM 1.878e-12
+C1 OUTSR2 VCOM 1e-12
+R8 OUTSR2 VCOM 1e9
+G2 VCOM OUTSR2 VALUE = { LIMIT( 1*V(OUTSR1,OUTSR2), 625e-6, -625e-6) }
+D1 N003 N002 DX
+D2 N006 N003 DX
+D3 N010 N007 DX
+D4 N011 N010 DX
+EB5 VPOS N002 VALUE = {1.809+(.28*((v(VPOS)-v(VNEG))-5))}
+EB6 N006 VNEG VALUE = {1.809+(.28*((v(VPOS)-v(VNEG))-5))}
+EB7 VPOS N007 VALUE = {1.843+(.28*((v(VPOS)-v(VNEG))-5))}
+EB8 N011 VNEG VALUE = {1.843+(.28*((v(VPOS)-v(VNEG))-5))}
+V_Noise N001 VCOM 0
+R3 N001 VCOM 0.166
+H1 N005 INPP V_Noise .5
+EB_VOS N008 OUTSR2 VALUE = {(0.002-(ABS(v(GAIN,VCOM))/350))*(COS(13*v(GAIN,VCOM)))+((v(GAIN,VCOM)*-1)/350)}
+R4 N004 INPN 100
+E3 VOUT VCOM N010 VCOM 1
+EB9 N010 N009 VALUE = {((v(VPOS)-v(VNEG))-5)*.01}
+H2 N009 N008 V_Noise 65.8
+C2 iG VCOM 1e-12
+R2 iG VCOM 1e9
+G1 VCOM iG VALUE = { LIMIT( 1*(V(GAIN,VCOM)-V(iG)), 7e-6, -7e-6) }
+* Current Feedback Pre-Amplifier\nInput Stage
+* Supply Current
+* Gain and Gain Error\nOutput Stage
+* Gain input impedance and Gain Response
+* Slew Rate 625v/uS\nBW=280MHz
+.MODEL DX D(CJO=1F RS=.1)
+.ends
+*$
