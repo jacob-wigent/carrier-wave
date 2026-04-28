@@ -5929,7 +5929,7 @@
 				)
 			)
 		)
-		(property "Value" "VBUS_F"
+		(property "Value" "VBUS"
 			(at 131.445 78.105 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2007,7 +2007,7 @@
 				)
 			)
 		)
-		(property "Value" "VBUS_F"
+		(property "Value" "VBUS"
 			(at 112.395 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
