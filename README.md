@@ -16,7 +16,7 @@ A portable, USB-C powered function generator currently under development. This p
 ## Target Capabilities
 
 - **Frequency:** up to 25 MHz sine waves
-- **Waveforms:** Sine, square, triangle (via DDS)
+- **Waveforms:** Sine, square, triangle (via DDS), and arbitrary[†](#footnotes) (via MCU DAC)
 - **Output amplitude:**
   - 20 Vpp (±10 V) into high-impedance load  
   - 10 Vpp (±5 V) into 50 Ω load
@@ -54,3 +54,6 @@ This project is released under the **CERN Open Hardware Licence Version 2 – St
 You are free to use, modify, and distribute the hardware and design files, provided that derivative works are also shared under the same license.  
 
 For full license details, see the [LICENSE](LICENSE) file.
+
+#### Footnotes:
+- † Abitrary waveform generation is a potential feature using one of the STM32G4s built-in DACs. This output would be limited to lower frequencies (under 1Mhz) and waveform storage would be limited due to memory constraints.
