@@ -2773,6 +2773,19 @@
 		)
 		(uuid "693fe888-cda0-44e6-98a3-dec2848bc79d")
 	)
+	(text "CONSIDER CONNECTING VDDA TO 3.3VA"
+		(exclude_from_sim no)
+		(at 165.1 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "95961968-b621-462e-8b07-d0d2458ecff3")
+	)
 	(junction
 		(at 156.21 44.45)
 		(diameter 0)

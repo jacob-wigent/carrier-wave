@@ -10,255 +10,6 @@
 		(company "Jacob Wigent")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Operational:LM7171xIM"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LM7171xIM"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm7171.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single Very High Speed High Output Current Voltage Feedback Amplifier, SOIC-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "single opamp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM7171xIM_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin no_connect line
-					(at 0 2.54 270)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -2.54 90)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 2.54 -1.27 90)
-					(length 6.35)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Amplifier_Operational:THS3491xDDA"
 			(pin_names
 				(offset 0.127)
@@ -2340,6 +2091,257 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "carrier-wave:OPA695"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA695"
+				(at 2.54 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 2.54 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa695.pdf"
+				(at 3.81 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ultra-Wideband, Current-Feedback Operational Amplifier With Disable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "opamp operational amplifier single"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TSOT*23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OPA695_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "OPA695_1_1"
+				(pin no_connect line
+					(at 0 7.62 270)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "~{DIS}"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -9692,6 +9694,228 @@
 		)
 	)
 	(symbol
+		(lib_id "carrier-wave:OPA695")
+		(at 97.79 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "682c02c6-abe6-42b1-9359-0ad6debc866f")
+		(property "Reference" "U702"
+			(at 108.585 91.3698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA695"
+			(at 108.585 93.9098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 100.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa695.pdf"
+			(at 101.6 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ultra-Wideband, Current-Feedback Operational Amplifier With Disable"
+			(at 97.79 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" " OPA695IDR"
+			(at 97.79 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/texas-instruments/OPA695IDR/1572891"
+			(at 97.79 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "a4fb0bac-0af7-4ea9-88f7-c3d641c37cd0")
+		)
+		(pin "2"
+			(uuid "5df833a5-52e8-4cd8-a67a-a3f349189a60")
+		)
+		(pin "1"
+			(uuid "8cc3ae55-84ef-4baf-9a32-48a9b896b274")
+		)
+		(pin "6"
+			(uuid "4e13ce8d-1990-4391-87f6-c30eda095b87")
+		)
+		(pin "4"
+			(uuid "9610aa4c-66ce-4e82-a244-60fd090752cf")
+		)
+		(pin "3"
+			(uuid "c96a3bce-65c6-4f4c-979c-8c5123235f90")
+		)
+		(pin "8"
+			(uuid "ff67c067-1fe7-49af-b043-e54afa3e6a92")
+		)
+		(pin "7"
+			(uuid "7506c680-0cff-49a6-a5ca-114f1e7f4752")
+		)
+		(instances
+			(project "carrier-wave"
+				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e/5675522c-b478-4fae-bc1e-6c223e44ab27"
+					(reference "U702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:THS3491xDDA")
+		(at 179.07 83.185 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8931e40e-78c9-4916-9f63-b52e174d2e81")
+		(property "Reference" "U705"
+			(at 191.77 76.7648 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "THS3491xDDA"
+			(at 191.77 79.3048 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
+			(at 179.07 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ths3491.pdf"
+			(at 182.88 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "900-MHz, 500-mA High-Power Output Current Feedback Operational Amplifier, SOIC-8"
+			(at 179.07 83.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "feef67bf-dfad-49f7-bac2-23c829907892")
+		)
+		(pin "5"
+			(uuid "79badd2a-7be0-4dde-aa3e-32dfa889bf0d")
+		)
+		(pin "1"
+			(uuid "745f3e94-5b13-478d-b892-7b91d7a5f136")
+		)
+		(pin "6"
+			(uuid "eea06de4-d69c-49f4-a48d-f2c8e67f5bc1")
+		)
+		(pin "7"
+			(uuid "7cce8bda-eac1-4ddb-a125-71b05c90e85b")
+		)
+		(pin "8"
+			(uuid "940fd84d-55bb-45f0-89b0-d4ea334db472")
+		)
+		(pin "3"
+			(uuid "ed423a97-4a5e-4eb9-8d45-0d43fb78c902")
+		)
+		(pin "9"
+			(uuid "faba5317-5ba5-4ea4-85f9-a833d0b13b45")
+		)
+		(pin "4"
+			(uuid "40324115-9288-449f-a573-df829938a12a")
+		)
+		(instances
+			(project "carrier-wave"
+				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e/5675522c-b478-4fae-bc1e-6c223e44ab27"
+					(reference "U705")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "TS5A3159ADCK_1")
 		(lib_id "Analog_Switch:TS5A3159ADCK")
 		(at 153.035 95.25 180)
@@ -9703,7 +9927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a21b31a4-3903-4c39-ac39-3688a1bb0a98")
-		(property "Reference" "U704"
+		(property "Reference" "U703"
 			(at 150.495 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9781,7 +10005,7 @@
 		(instances
 			(project "carrier-wave"
 				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e/5675522c-b478-4fae-bc1e-6c223e44ab27"
-					(reference "U704")
+					(reference "U703")
 					(unit 1)
 				)
 			)
@@ -9799,7 +10023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9aa2051-b509-4420-990d-b39f7b54a22a")
-		(property "Reference" "U705"
+		(property "Reference" "U704"
 			(at 177.165 126.365 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9852,6 +10076,28 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 177.165 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" ""
+			(at 177.165 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "34c5ec01-fdd7-43a9-93f5-ef9e6d381848")
 		)
@@ -9879,108 +10125,7 @@
 		(instances
 			(project "carrier-wave"
 				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e/5675522c-b478-4fae-bc1e-6c223e44ab27"
-					(reference "U705")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:THS3491xDDA")
-		(at 205.105 95.25 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b6a3920f-fc53-4ece-b427-9c8659b32fe4")
-		(property "Reference" "U703"
-			(at 211.963 101.346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "THS3491"
-			(at 211.963 98.806 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
-			(at 205.105 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ths3491.pdf"
-			(at 208.915 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "900-MHz, 500-mA High-Power Output Current Feedback Operational Amplifier, SOIC-8"
-			(at 205.105 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "63f30d8d-fee9-44ee-8441-4c26576dbbee")
-		)
-		(pin "4"
-			(uuid "f3696797-6038-48e1-a085-f39cccd306bb")
-		)
-		(pin "9"
-			(uuid "2de548e6-2f11-43ab-b548-3e4d4a065e6e")
-		)
-		(pin "8"
-			(uuid "4c039c05-66d5-4b9b-93c2-a62736a5150f")
-		)
-		(pin "5"
-			(uuid "6f7b7ff8-66c7-46ff-8050-04d1cdf3993e")
-		)
-		(pin "2"
-			(uuid "fc776ff4-6381-4ef4-8494-9f4ab720df40")
-		)
-		(pin "3"
-			(uuid "6bee5d9b-eec5-44a0-90bb-0c2f2f33b76b")
-		)
-		(pin "6"
-			(uuid "f882fefc-ca49-41d5-8f26-a88fa401f369")
-		)
-		(pin "1"
-			(uuid "64fe23c2-fbc7-4810-baa6-bd29ff44d69f")
-		)
-		(instances
-			(project "carrier-wave"
-				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e/5675522c-b478-4fae-bc1e-6c223e44ab27"
-					(reference "U703")
+					(reference "U704")
 					(unit 1)
 				)
 			)
@@ -10205,104 +10350,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM7171xIM")
-		(at 100.33 97.155 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9ad4f46-e49c-48b5-979f-8b3a2f760231")
-		(property "Reference" "U702"
-			(at 111.76 90.7348 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM7171xIM"
-			(at 111.76 93.2748 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 100.33 97.155 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm7171.pdf"
-			(at 100.33 97.155 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Very High Speed High Output Current Voltage Feedback Amplifier, SOIC-8"
-			(at 100.33 97.155 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "f11a9b67-cc18-4ec6-a4fe-ce704af8dc3e")
-		)
-		(pin "2"
-			(uuid "a18dcc6e-fb4b-4b3b-a91e-de03d4289728")
-		)
-		(pin "5"
-			(uuid "aee765f8-cefb-4ce7-b1f8-a92d619807ea")
-		)
-		(pin "8"
-			(uuid "6bff7d34-d964-4161-a347-e5bd4af7cf58")
-		)
-		(pin "1"
-			(uuid "f8bac23f-c9ba-437b-a7f4-497407248769")
-		)
-		(pin "4"
-			(uuid "0f7e845f-5d59-4d38-8884-16c853676ebf")
-		)
-		(pin "3"
-			(uuid "3b3937ad-467f-4c11-b586-fda0fa2f4318")
-		)
-		(pin "6"
-			(uuid "d3c1fc85-b113-4edb-a0c2-eb3c519f9842")
-		)
-		(instances
-			(project "carrier-wave"
-				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e/5675522c-b478-4fae-bc1e-6c223e44ab27"
-					(reference "U702")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Analog_Switch:TS5A3159ADCK")
 		(at 153.035 101.6 90)
 		(unit 2)
@@ -10313,7 +10360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe9a4df0-39ee-4d09-a5a3-01bf44fd40e7")
-		(property "Reference" "U704"
+		(property "Reference" "U703"
 			(at 155.067 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10392,7 +10439,7 @@
 		(instances
 			(project "carrier-wave"
 				(path "/dc900721-a2e3-4f11-b4f2-59bb3a47422e/5675522c-b478-4fae-bc1e-6c223e44ab27"
-					(reference "U704")
+					(reference "U703")
 					(unit 2)
 				)
 			)

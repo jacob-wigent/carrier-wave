@@ -248,7 +248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 2.54 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -319,10 +319,11 @@
 			)
 		)
 		(symbol "OPA695_1_1"
-			(pin output line
-				(at 7.62 0 180)
+			(pin no_connect line
+				(at 0 7.62 270)
 				(length 2.54)
-				(name ""
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -337,10 +338,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -7.62 90)
-				(length 3.81)
-				(name "V-"
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -373,10 +374,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "-"
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(name "V-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -391,17 +392,36 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 -7.62 90)
-				(length 5.08)
-				(name "~{DISABLE}"
+			(pin no_connect line
+				(at 2.54 7.62 270)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
-							(size 0.762 0.762)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -419,7 +439,25 @@
 						)
 					)
 				)
-				(number "6"
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.62 90)
+				(length 5.08)
+				(name "~{DIS}"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
