@@ -1607,20 +1607,6 @@
 		)
 		(uuid "2105ae3d-7bc9-484a-8b1e-6a88ade961ee")
 	)
-	(text "TODO:\nADJUST TO 4.5V FOR VGA"
-		(exclude_from_sim no)
-		(at 86.36 60.325 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "3264801f-d598-4758-ab03-7a7eb31bfd2d")
-	)
 	(text "V_{outN} = -1.22V * (R_{3} + R_{4})/R_{4}\n^{R4 must be greater than 50k}\n-1.22V * (105k + 61.9k)/61.9k = -3.289V"
 		(exclude_from_sim no)
 		(at 160.02 115.57 0)
